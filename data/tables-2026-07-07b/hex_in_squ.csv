@@ -1,0 +1,28 @@
+category,n,s,holder,year
+hex_in_squ,1,(1+&radic;3)/&radic;2 = 1.931+,Trivial,
+hex_in_squ,2,(1+2&radic;3)/&radic;2 = 3.156+,Trivial,
+hex_in_squ,3,9(6&ndash;&radic;3)/11 = 3.491+,Maurizio Morandi,March 2026
+hex_in_squ,4,(7&ndash;&radic;3)/&radic;2 = 3.725+,Maurizio Morandi,March 2026
+hex_in_squ,5,7(3&ndash;&radic;3)/2 = 4.437+,Maurizio Morandi,March 2026
+hex_in_squ,6,20(9&ndash;2&radic;3)/23 = 4.813+,Maurizio Morandi,March 2026
+hex_in_squ,7,3&radic;3 = 5.196+,Trivial,
+hex_in_squ,8,3&radic;3 = 5.196+,Trivial,
+hex_in_squ,9,(13&ndash;3&radic;3)/&radic;2 = 5.518+,Maurizio Morandi,March 2026
+hex_in_squ,10,6.10469+,Jonathan Viquerat,April 2026
+hex_in_squ,11,6.33218+,,April 2026
+hex_in_squ,12,43(5&ndash;&radic;3)/22 = 6.387+,Maurizio Morandi,March 2026
+hex_in_squ,13,6.75549+,Timo Berthold et al,May 2026
+hex_in_squ,14,4&radic;3 = 6.928+,Trivial,
+hex_in_squ,15,6.96367+,,April 2026
+hex_in_squ,16,(19&ndash;5&radic;3)/&radic;2 = 7.311+,Maurizio Morandi,April 2026
+hex_in_squ,17,7.60383+,,April 2026
+hex_in_squ,18,32(9&ndash;2&radic;3)/23 = 7.702+,Maurizio Morandi,April 2026
+hex_in_squ,19,25(3&ndash;&radic;3)/4 = 7.924+,Maurizio Morandi,April 2026
+hex_in_squ,20,74(21&ndash;4&radic;3)/131 = 7.948+,Maurizio Morandi,April 2026
+hex_in_squ,21,8.381+,Jonathan Viquerat,April 2026
+hex_in_squ,22,8.568+,Jonathan Viquerat,April 2026
+hex_in_squ,23,5&radic;3 = 8.660+,Jonathan Viquerat,April 2026
+hex_in_squ,24,8.795+,Jonathan Viquerat,April 2026
+hex_in_squ,25,30(4&radic;3&ndash;3)/13 = 9.065+,Jonathan Viquerat,April 2026
+hex_in_squ,26,9.22085+,Bhavithran Ananthan,July 2026
+hex_in_squ,27,9.27734+,Thomas Greenleaf,June 2026

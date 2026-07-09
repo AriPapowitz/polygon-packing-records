@@ -1,0 +1,34 @@
+category,n,s,holder,year
+hex_in_hex,1,1,Trivial,
+hex_in_hex,2,2,Trivial,
+hex_in_hex,3,2,Trivial,
+hex_in_hex,4,7/3 = 2.333+,Trivial,
+hex_in_hex,5,8/3 = 2.666+,Erich Friedman,March 2015
+hex_in_hex,6,5/√3 = 2.886+,Maurizio Morandi,April 2015
+hex_in_hex,7,5/√3 = 2.886+,Maurizio Morandi,April 2015
+hex_in_hex,8,(51+5√3)/18 = 3.314+,Maurizio Morandi,April 2015
+hex_in_hex,9,(24+5√3)/9 = 3.628+,Maurizio Morandi,April 2015
+hex_in_hex,10,2 + √3 = 3.732+,Maurizio Morandi,April 2015
+hex_in_hex,11,2+10/3√3 = 3.92450+,Johann Schellhorn,July 2025
+hex_in_hex,12,3.94164+,Alpha Evolve,May 2025
+hex_in_hex,13,4,Trivial,
+hex_in_hex,14,4.26899+,Dominik Kamp,April 2026
+hex_in_hex,15,4.44727+,Alex Kravatsky et al,February 2026
+hex_in_hex,16,4.52746+,Alex Kravatsky et al,February 2026
+hex_in_hex,17,4.6136+,Alex Kravatsky et al,February 2026
+hex_in_hex,18,8/√3 = 4.618+,Maurizio Morandi,April 2015
+hex_in_hex,19,8/√3 = 4.618+,Maurizio Morandi,April 2015
+hex_in_hex,20,5,Trivial,
+hex_in_hex,21,5,Trivial,
+hex_in_hex,22,(39+8√3)/10 = 5.285+,Maurizio Morandi,April 2015
+hex_in_hex,23,5.39998+,Jonathan Viquerat,June 2026
+hex_in_hex,24,19√3/6 = 5.484+,Maurizio Morandi,April 2015
+hex_in_hex,25,5.62390+,Alex Kravatsky et al,February 2026
+hex_in_hex,26,5.70972+,Alex Kravatsky et al,February 2026
+hex_in_hex,27,5.71415+,Alex Kravatsky et al,February 2026
+hex_in_hex,28,5.90893+,Alex Kravatsky et al,February 2026
+hex_in_hex,29,6,Trivial,
+hex_in_hex,30,6,Trivial,
+hex_in_hex,31,6,Trivial,
+hex_in_hex,32,6.26164+,Bhavithran Ananthan,July 2026
+hex_in_hex,33,6.26603+,Thomas Greenleaf,June 2026

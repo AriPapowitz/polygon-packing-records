@@ -1,0 +1,72 @@
+hex_in_oct n=9 claim=2.62665 best=2.626659311
+hex_in_oct n=10 claim=2.74238 best=2.742383026
+hex_in_pen n=10 claim=4.5581 best=4.558106973
+hex_in_oct n=12 claim=2.92139 best=2.921464526
+hex_in_hex n=12 claim=3.94164 best=3.941643237
+hex_in_pen n=11 claim=4.71959 best=4.719830931
+hex_in_pen n=9 claim=4.34314 best=4.343145120
+hex_in_tri n=9 claim=8.64494 best=8.644949331
+hex_in_squ n=11 claim=6.33218 best=6.332183269
+hex_in_pen n=12 claim=4.9185 best=4.918561720
+hex_in_squ n=10 claim=6.10469 best=6.104741839
+oct_in_hex n=9 claim=4.93304 best=4.933046284
+oct_in_hex n=10 claim=5.06929 best=5.069290649
+hex_in_tri n=11 claim=9.54823 best=9.548327001
+oct_in_pen n=9 claim=5.9658 best=5.965808636
+oct_in_oct n=11 claim=3.93256 best=3.932569013
+hex_in_tri n=12 claim=9.96429 best=9.964299612
+oct_in_hex n=11 claim=5.34798 best=5.348001866
+oct_in_squ n=11 claim=8.57596 best=8.575974028
+oct_in_pen n=12 claim=6.71763 best=6.717766350
+oct_in_pen n=10 claim=6.28146 best=6.281467262
+oct_in_hex n=12 claim=5.38669 best=5.386716647
+pen_in_hex n=9 claim=2.86967 best=2.869675170
+oct_in_tri n=10 claim=11.80642 best=11.806431645
+pen_in_oct n=9 claim=2.09517 best=2.095179330
+oct_in_tri n=12 claim=13.62033 best=13.620323299
+oct_in_pen n=11 claim=6.46576 best=6.465776034
+pen_in_hex n=10 claim=2.93665 best=2.936647214
+pen_in_pen n=9 claim=3.44956 best=3.449593474
+pen_in_hex n=12 claim=3.21458 best=3.214582367
+oct_in_tri n=11 claim=13.24689 best=13.246980688
+pen_in_squ n=9 claim=4.60033 best=4.600344603
+pen_in_oct n=10 claim=2.21135 best=2.211357694
+pen_in_hex n=11 claim=3.16125 best=3.161646977
+pen_in_tri n=9 claim=7.08969 best=7.089690862
+pen_in_pen n=10 claim=3.68324 best=3.683281577
+pen_in_oct n=12 claim=2.39327 best=2.393593962
+squ_in_hex n=11 claim=2.40944 best=2.409441867
+pen_in_oct n=11 claim=2.33111 best=2.331116916
+pen_in_squ n=10 claim=4.90581 best=4.905828737
+pen_in_pen n=12 claim=3.96926 best=3.969261013
+squ_in_pen n=10 claim=2.793 best=2.793544129
+pen_in_tri n=10 claim=7.17235 best=7.172368027
+pen_in_pen n=11 claim=3.79704 best=3.797055654
+tri_in_hex n=9 claim=1.434 best=1.434298021
+pen_in_squ n=12 claim=5.23221 best=5.232226464
+tri_in_oct n=10 claim=1.07515 best=1.075298929
+squ_in_oct n=10 claim=1.68171 best=1.681767831
+pen_in_squ n=11 claim=5.11556 best=5.115578266
+tri_in_pen n=10 claim=1.815 best=1.815967389
+pen_in_tri n=12 claim=8.19117 best=8.192424224
+squ_in_pen n=11 claim=2.89 best=2.891577280
+pen_in_tri n=11 claim=7.93748 best=7.937826693
+squ_in_pen n=9 claim=2.693 best=2.694025790
+tri_in_squ n=10 claim=2.377 best=2.377022829
+GPU 3 done
+tri_in_hex n=10 claim=1.497 best=1.500000002
+squ_in_oct n=11 claim=1.73152 best=1.731615575
+tri_in_oct n=11 claim=1.14562 best=1.145625293
+squ_in_tri n=12 claim=6.301 best=6.309401081
+tri_in_oct n=9 claim=1.00871 best=1.008713781
+tri_in_pen n=11 claim=1.871 best=1.871824864
+squ_in_pen n=12 claim=2.969 best=2.969711393
+tri_in_pen n=9 claim=1.767 best=1.768939167
+tri_in_hex n=12 claim=1.623 best=1.626574954
+tri_in_squ n=11 claim=2.49 best=2.490959067
+GPU 0 done
+tri_in_squ n=9 claim=2.287 best=2.287509485
+GPU 2 done
+tri_in_oct n=12 claim=1.19914 best=1.199278639
+tri_in_pen n=12 claim=1.973 best=1.973588617
+GPU 1 done

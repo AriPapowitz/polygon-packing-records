@@ -1,0 +1,21 @@
+category,n,s,holder,year
+oct_in_squ,1,1 + √2 = 2.41421+,Trivial,
+oct_in_squ,2,2 + 3√2/2 = 4.12132+,Jonathan Viquerat,2026
+oct_in_squ,3,2 + 2√2 = 4.82842+,Trivial,
+oct_in_squ,4,2 + 2√2 = 4.82842+,Trivial,
+oct_in_squ,5,3 + 2√2 = 5.82842+,Jonathan Viquerat,2026
+oct_in_squ,6,(11√2+17)/5 = 6.51126+,Jonathan Viquerat,2026
+oct_in_squ,7,(5√2+7)/2 = 7.03553+,Jonathan Viquerat,2026
+oct_in_squ,8,3 + 3√2 = 7.24264+,Trivial,
+oct_in_squ,9,3 + 3√2 = 7.24264+,Trivial,
+oct_in_squ,10,4+3√2 = 8.24264+,Jonathan Viquerat,2026
+oct_in_squ,11,8.57596+,Jonathan Viquerat,2026
+oct_in_squ,12,(23√2+38)/8 = 8.81586+,Jonathan Viquerat,2026
+oct_in_squ,13,9.19909+,Jonathan Viquerat,2026
+oct_in_squ,14,(7√2+9)/2 = 9.44974+,Jonathan Viquerat,2026
+oct_in_squ,15,4 + 4√2 = 9.65685+,Jonathan Viquerat,2026
+oct_in_squ,16,4 + 4√2 = 9.65685+,Jonathan Viquerat,2026
+oct_in_squ,17,10.44973+,Jonathan Viquerat,2026
+oct_in_squ,18,(17√2+29)/5 = 10.60832+,Jonathan Viquerat,2026
+oct_in_squ,19,10.96620+,Haowei Lin,2026
+oct_in_squ,20,(39√2+67)/11 = 11.10493+,Jonathan Viquerat,2026

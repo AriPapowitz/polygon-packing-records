@@ -1,0 +1,7 @@
+# Exact-solve: sweep_WIN_squ_in_oct_26_polished
+
+high-precision s = 2.5270949922585907620472654320593769744145805191183766426921439312
+(f64 was 2.527094996054831)
+
+minimal polynomial candidate (deg 6): [-5871636, -29309856, -55641198, 21332262, -13964307, 653124, 2277596]
+Q(sqrt(2+sqrt2)) relation: None
