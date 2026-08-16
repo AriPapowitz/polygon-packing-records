@@ -43,8 +43,11 @@ shrink-anneal) → on-device float64 refinement (polish/grow/squeeze) → indepe
 exact-separating-axis certification (dilation ≤ 1e-12) → same-day live-table
 verification. Four structured mechanisms on top: image reconstruction + squeeze,
 seeded basin-hopping, drop-one propagation, high-precision contact solving + PSLQ.
-Results: 58 record submissions in five days (July 4–8, 2026) across 14 of 24
-tables; 52 credited, 41 still standing 2026-08-16; margins 3.9e-7 to 3.9e-3.
+Results: 54 problems claimed in five days (July 4–8, 2026; 58 submission
+line-items) across 14 of 24 tables; **52 credited (scrape-verified), 41 still
+standing 2026-08-16**; margins 3.9e-7 to 7.4e-3; every packing re-certified
+from its submitted coordinates. Conservative-claims policy: the paper counts
+only scrape-verifiable credits.
 Audit findings: the 2026 record wave is systematically under-converged by
 contributor-specific amounts (~1e-3 for two prolific setters, <1e-5 for others);
 legacy entries (1997–2012) are converged ties; randomized multi-start cannot
@@ -193,9 +196,10 @@ One 65-digit contact-system analysis with a provable no-closed-form certificate.
 
 ## Pre-submission verification checklist (do before arXiv)
 
-- V1 **Batch re-certification**: one script certifies all 54 cells' final JSONs
-  (validate --polish off, exact margins only) → supplementary table. Collect
-  scattered JSONs into `paper/solutions/` first.
+- V1 **Batch re-certification**: ✅ DONE 2026-08-16 — `paper/collect_and_certify.py`
+  rebuilds all 54 claims (+ the n8 tie) from the sent artifacts and re-certifies:
+  55/55 reproduce claimed values to ≤1e-9 (`paper/certification.csv`,
+  `paper/solutions/`). Re-run the week of posting.
 - V2 **Settle the closed forms**: exact_solve on squ_in_tri 41/42/43 (squares —
   supported); report "= 6+8/√3 (exact-solve to N digits)" or "agrees to 4e-9,
   form unproven" — whichever the computation supports. Also re-verify the

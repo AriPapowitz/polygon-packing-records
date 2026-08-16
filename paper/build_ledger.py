@@ -230,89 +230,146 @@ for i, r in enumerate(S):
 standing_at = {t: sum(1 for c in cells if US in _scr[t].get(c, ("", "", ""))[1]) for t in TAGS}
 
 # ------------------------------------------------------------------ report ----
-n_items = len(S)
-n_cells = len(cells)
+# Conservative, per-problem semantics: one row per (category, n) cell; headline
+# counts only what is verifiable from archived scrapes + fresh re-certification.
+
+cert = {}
+certpath = ROOT / "paper" / "certification.csv"
+if certpath.exists():
+    with open(certpath, encoding="utf-8") as fh:
+        for row in csv.DictReader(fh):
+            cert[(row["category"], int(row["n"]))] = row
+
+SPECIAL = {
+    ("pen_in_hex", 6): "withdrawn — not a record (page was stale; the incumbent's "
+                       "actual value was not beaten)",
+    ("pen_in_oct", 28): "briefly listed during 26-batch processing, re-taken the "
+                        "same day — not captured in any archived scrape",
+}
+
+percell = []
+for cat, n in cells:
+    items = [r for r in S if (r["cat"], r["n"]) == (cat, n)]
+    final = items[-1]
+    mech = final["mech"] if final["mech"] != "self-update" else items[0]["mech"]
+    if (cat, n) == ("squ_in_oct", 36):  # strongest prior = the trivial lattice
+        pfloor, pholder = 2.92893, "Trivial (10−5√2)"
+    else:
+        pfloor, pholder = items[0]["prior_floor"], items[0]["prior_holder"]
+    st = cellstat[(cat, n)]
+    if st["standing"]:
+        status = "standing"
+    elif st["credited"]:
+        h, y, t = st["lost_to"]
+        status = f"re-taken by {h} ({y or 'date n/a'})"
+    else:
+        status = SPECIAL[(cat, n)]
+    c = cert.get((cat, n))
+    percell.append(dict(
+        cat=cat, n=n, ours=final["ours"], pfloor=pfloor, pholder=pholder,
+        margin=(pfloor - final["ours"]) if pfloor else None, mech=mech,
+        sent=items[0]["sent"], resub=len(items) > 1,
+        credit=st["first_credit"] or "—", status=status,
+        recert=bool(c and c["verdict"] == "VERIFIED"),
+        note="; ".join(x["note"] for x in items if x["note"])))
+
+n_cells = len(percell)
 n_cred = sum(1 for c in cells if cellstat[c]["credited"])
 n_stand = sum(1 for c in cells if cellstat[c]["standing"])
+n_recert = sum(1 for p in percell if p["recert"])
 takers = defaultdict(int)
 for c in cells:
     st = cellstat[c]
     if st["credited"] and not st["standing"]:
         takers[st["lost_to"][0]] += 1
+mechtally = defaultdict(int)
+for p in percell:
+    mechtally[p["mech"]] += 1
 
-print(f"line-items={n_items}  cells={n_cells}  credited={n_cred}  standing({LATEST})={n_stand}")
-print("re-taken:", dict(takers))
-for c in cells:
-    st = cellstat[c]
-    if not st["credited"]:
-        print("never credited:", c)
+assert n_cells == 54 and len(S) == 58, (n_cells, len(S))
+print(f"cells={n_cells}  credited(verified)={n_cred}  standing({LATEST})={n_stand}  "
+      f"re-certified={n_recert}/{n_cells}")
+print("re-taken:", dict(takers), " mechanisms:", dict(mechtally))
 
-# ledger.csv
 with open(ROOT / "paper" / "ledger.csv", "w", newline="", encoding="utf-8") as fh:
     w = csv.writer(fh)
-    w.writerow(["category", "n", "batch", "sent", "s_ours_full", "s_ours_displayed",
-                "prior_displayed", "prior_holder", "margin_lb", "mechanism", "status_" + LATEST, "note"])
-    for r in sorted(S, key=lambda r: (r["cat"], r["n"], r["sent"])):
-        disp = f"{int(r['ours']*1e5)/1e5:.5f}+"
-        w.writerow([r["cat"], r["n"], r["batch"], r["sent"], f"{r['ours']:.15f}", disp,
-                    r["prior_floor"], r["prior_holder"],
-                    f"{r['margin']:.2e}" if r["margin"] is not None else "",
-                    r["mech"], r["status"], r["note"]])
-
-# LEDGER.md
-def fmtmargin(m):
-    return f"{m:.1e}" if m is not None else "—"
+    w.writerow(["category", "n", "s_ours_full", "s_ours_displayed", "prior_floor",
+                "prior_holder", "margin_lb", "mechanism", "first_sent",
+                "credit_verified_in_scrape", "status_" + LATEST, "recertified",
+                "resubmitted", "note"])
+    for p in sorted(percell, key=lambda p: (p["cat"], p["n"])):
+        w.writerow([p["cat"], p["n"], f"{p['ours']:.15f}", f"{int(p['ours']*1e5)/1e5:.5f}+",
+                    p["pfloor"], p["pholder"],
+                    f"{p['margin']:.2e}" if p["margin"] is not None else "",
+                    p["mech"], p["sent"], p["credit"], p["status"],
+                    "yes" if p["recert"] else "NO", "yes" if p["resub"] else "",
+                    p["note"]])
 
 lines = []
 A = lines.append
 A("# Record Ledger — frozen 2026-08-16")
 A("")
-A("Every record submission of the June–July 2026 campaign, reconciled against")
-A(f"dated scrapes of the live tables ({', '.join(TAGS)}).")
-A("Regenerate: `python paper/build_ledger.py` (machine-readable: `paper/ledger.csv`).")
+A("Every problem claimed in the July 2026 campaign, one row per (category, n) cell,")
+A(f"reconciled against dated scrapes of the live tables ({', '.join(TAGS)})")
+A("and re-certified from the submitted coordinates on 2026-08-16.")
+A("Regenerate: `python paper/collect_and_certify.py` then `python paper/build_ledger.py`")
+A("(machine-readable: `paper/ledger.csv`, `paper/certification.csv`; coordinates:")
+A("`paper/solutions/`).")
 A("")
 A("## Headline numbers")
 A("")
-A(f"- **58 record submissions**, July 4–8, 2026 — every one found, certified, and")
-A(f"  staged by **July 7**; the final batch of 8 was emailed the morning of July 8.")
-A(f"- **{n_cells} distinct (category, n) cells** — 4 cells were submitted twice")
-A(f"  (squ_in_oct 36 after a trivial-lattice supersession; tri_in_pen 43 deeper")
-A(f"  certification; tri_in_oct 33/34 drop-one self-improvements).")
-A(f"- **{n_cred} cells credited** \"Aristotle Papowitz, July 2026\" on the live tables.")
-A(f"- **{n_stand} standing as of 2026-08-16** ({standing_at['2026-07-09']} were standing 2026-07-09).")
-A(f"- **{n_cred - n_stand} cells since re-taken**: " +
-  ", ".join(f"{k} ×{v}" for k, v in sorted(takers.items(), key=lambda x: -x[1])) + ".")
-A(f"- **{n_cells - n_cred} cells submitted but never credited** — both casualties of")
-A(f"  table velocity, not of invalid packings: pen_in_hex 6 (incumbent re-squeezed")
-A(f"  his own entry to our displayed value while the submission sat unsent ~30 h)")
-A(f"  and pen_in_oct 28 (a competitor posted a better value the day the batch went")
-A(f"  out — dead on arrival).")
-A(f"- Not counted: tri_in_hex n=8 (July 2–3 channel test) — certified value")
-A(f"  1.356597399687052 is a **tie** with Cantrell 2012, correctly not listed.")
+A("Conservative — only what the archives and a fresh certification run can prove.")
 A("")
-A("Mechanisms (per submission): " + ", ".join(
-    f"{m} ×{sum(1 for r in S if r['mech'] == m)}"
-    for m in ["harvest", "search", "closed-form", "drop-one", "search+drop-one", "self-update"]) + ".")
+A(f"- **{n_cells} problems claimed** across 14 tables, submitted July 4–8, 2026 in")
+A(f"  58 claim line-items (4 cells were submitted twice; see notes).")
+A(f"- **{n_recert}/{n_cells} re-certified on 2026-08-16** from the exact coordinates that were")
+A(f"  emailed: independent exact-SAT certification reproduces every claimed value to")
+A(f"  ≤1e-9; worst pair separation ≥ −8e-13, worst containment ≥ −6e-13,")
+A(f"  certification cost ≤ 1e-11 (`paper/certification.csv`).")
+A(f"- **{n_cred} problems credited** \"Aristotle Papowitz, July 2026\" — *verified* in at")
+A(f"  least one archived scrape.")
+A(f"- **{n_stand} standing as of 2026-08-16** ({standing_at['2026-07-09']} were standing 2026-07-09).")
+A(f"- **{n_cred - n_stand} since re-taken**: " +
+  ", ".join(f"{k} ×{v}" for k, v in sorted(takers.items(), key=lambda x: -x[1])) + ".")
+A(f"- **2 claims excluded from the credited count**:")
+A(f"  - pen_in_oct 28 — the campaign log records the full 26-batch being processed,")
+A(f"    but a competitor had posted a better value the day the batch went out and no")
+A(f"    archived scrape captures our listing. Conservatively: not counted.")
+A(f"  - pen_in_hex 6 — withdrawn: the page we verified against was stale; the")
+A(f"    incumbent's actual value was not beaten. Not a record.")
+A(f"- Not counted anywhere: tri_in_hex 8 (July 2–3 channel test) — certified")
+A(f"  1.356597399687052, a **tie** with Cantrell 2012, correctly never listed.")
+A("")
+A("**Reconciling the campaign's live count of \"58 records on the page\":** during the")
+A("campaign the tables showed, at one point or another, the 52 verified credits plus")
+A("squ_in_oct 36's first listing (~5 minutes, then superseded by the trivial lattice")
+A("and re-won), pen_in_oct 28's brief listing, and re-listings of tri_in_pen 43 and")
+A("tri_in_oct 33/34 at improved values. The paper claims the conservative,")
+A(f"scrape-verifiable number: **{n_cred}**.")
+A("")
+A("Mechanisms (per problem, final value): " + ", ".join(
+    f"{m} ×{c}" for m, c in sorted(mechtally.items(), key=lambda x: -x[1])) + ".")
 A("")
 A("| # | Mechanism | Meaning |")
 A("|---|---|---|")
 A("| 1 | harvest | reconstruct incumbent's published image (~0.1 px), converge it in float64 below their displayed floor |")
 A("| 2 | search | new arrangement found by batched GPU multi-start / structured basin-hopping |")
-A("| 3 | closed-form | harvest that landed on an exact algebraic value the incumbent missed |")
+A("| 3 | closed-form | harvest that landed on a value agreeing with an exact algebraic form the incumbent missed |")
 A("| 4 | drop-one | remove one shape from a stronger (n+1)-packing, re-squeeze; cascades downward |")
-A("| 5 | self-update | deeper certification of our own earlier value |")
 A("")
 A("## The ledger")
 A("")
-A("Margin = incumbent's displayed floor − our certified value (a lower bound on the")
-A("improvement, since a displayed `x+` means the incumbent held a value in [x, x+10⁻⁵)).")
+A("Margin = strongest prior displayed floor − our certified value (a lower bound on")
+A("the improvement, since a displayed `x+` means a value in [x, x+10⁻⁵)). ✓ = the")
+A("submitted coordinates re-certified to the claimed value on 2026-08-16.")
 A("")
-A("| Category | n | Ours (certified) | Prior entry | Margin ≥ | Mech | Sent | Status (2026-08-16) |")
-A("|---|---|---|---|---|---|---|---|")
-for r in sorted(S, key=lambda r: (r["cat"], r["n"], r["sent"], r["batch"])):
-    prior = f"{r['prior_floor']}+ ({r['prior_holder']})" if r["prior_floor"] else r["prior_holder"]
-    A(f"| {CATNAME[r['cat']]} | {r['n']} | {r['ours']:.15g} | {prior} | "
-      f"{fmtmargin(r['margin'])} | {r['mech']} | {r['sent'][5:]} | {r['status']} |")
+A("| Category | n | Ours (certified) | Prior entry | Margin ≥ | Mech | Credited (scrape) | ✓ | Status (2026-08-16) |")
+A("|---|---|---|---|---|---|---|---|---|")
+for p in sorted(percell, key=lambda p: (p["cat"], p["n"])):
+    prior = f"{p['pfloor']}+ ({p['pholder']})" if p["pfloor"] else p["pholder"]
+    mark = "✓" if p["recert"] else "**✗**"
+    A(f"| {CATNAME[p['cat']]} | {p['n']} | {p['ours']:.15g} | {prior} | "
+      f"{p['margin']:.1e} | {p['mech']} | {p['credit']} | {mark} | {p['status']} |")
 A("")
 A("## Attrition timeline")
 A("")
@@ -320,32 +377,35 @@ A("| Scrape | Standing | Event |")
 A("|---|---|---|")
 for t in TAGS:
     ev = {"2026-07-04": "campaign start: tables re-scraped, no credits yet",
-          "2026-07-06": "queue cleared: B1–B6 processed",
+          "2026-07-06": "queue cleared: batches B1–B6 processed",
           "2026-07-07": "blitz-era snapshot", "2026-07-07b": "night-shift snapshot",
-          "2026-07-09": "B7 processed (7 of 8 landed); Lipponen takes squ_in_oct 31/35/40",
+          "2026-07-09": "B7 processed (7 of 8 listed); Lipponen takes squ_in_oct 31/35/40",
           "2026-08-16": "ledger freeze; attrition: " +
           ", ".join(f"{k} ({v})" for k, v in sorted(takers.items(), key=lambda x: -x[1]))}.get(t, "")
     A(f"| {t} | {standing_at[t]} | {ev} |")
 A("")
 A("## Notes for the paper")
 A("")
-A("1. **Truncation semantics.** All margins are lower bounds computed against the")
-A("   displayed floor. Claims were certified by `validate_packing.py` (exact")
-A("   separating-axis margins, float64, dilation bound ≤ 1e-12) before submission.")
-A("2. **The five-minute record.** B1's squ_in_oct 36 beat the then-listed 2.92919+")
-A("   but was superseded within minutes by a trivial 37-square diamond lattice at")
-A("   10−5√2 = 2.92893+ that dominated both n=36 and n=37. B2 then beat the trivial")
-A("   value with a vacancy rearrangement. Lesson: check trivial n+1 constructions")
-A("   before claiming n.")
-A("3. **Race dynamics.** Two of the 58 were invalidated purely by table velocity")
-A("   (pen_in_hex 6, pen_in_oct 28); four further *finished* records (pen_in_squ 3,")
+A("1. **Truncation semantics.** All margins are lower bounds against the displayed")
+A("   floor. Every claim was certified before submission and re-certified for this")
+A("   ledger (exact separating-axis margins, float64, certified dilation bound).")
+A("2. **The five-minute record.** squ_in_oct 36's first value (2.92902...) beat the")
+A("   then-listed 2.92919+ but was superseded within minutes by a trivial 37-square")
+A("   diamond lattice at 10−5√2 = 2.92893+ dominating both n=36 and n=37; the")
+A("   standing value (2.92870...) then beat the trivial lattice with a vacancy")
+A("   rearrangement. Lesson: check trivial n+1 constructions before claiming n.")
+A("3. **Race dynamics.** Two claims were invalidated purely by table velocity")
+A("   (pen_in_hex 6, pen_in_oct 28); four further finished records (pen_in_squ 3,")
 A("   hex_in_pen 4, oct_in_pen 4, pen_in_hex 8) were sniped by a competitor while")
-A("   staged, before sending, and are not part of the 58. Records on a live")
-A(f"   benchmark decay: {n_cred} credited → {standing_at['2026-07-09']} standing Jul 9")
-A(f"   → {n_stand} standing Aug 16.")
-A("4. **Provenance.** Claimed values: batch emails + coordinate files in")
-A("   `submissions/sent_batches/`. Table history: `data/tables-*/`. Solution JSONs:")
-A("   `polygon-packer/results/`.")
+A("   staged, before sending, and were never submitted. Records on a live benchmark")
+A(f"   decay: {n_cred} credited → {standing_at['2026-07-09']} standing Jul 9 → {n_stand} standing Aug 16.")
+A("4. **Resubmitted cells.** squ_in_oct 36 (after the trivial-lattice supersession),")
+A("   tri_in_pen 43 (display-identical deeper certification), tri_in_oct 34 and 33")
+A("   (drop-one self-improvements of our own week-old values, −7.2e-3 and −4.4e-3).")
+A("5. **Provenance.** Claimed values and coordinates: batch emails + coordinate")
+A("   files in `submissions/sent_batches/` (private), frozen as JSON in")
+A("   `paper/solutions/` (public). Table history: `data/tables-*/`. Certification:")
+A("   `paper/certification.csv`, regenerable with `paper/collect_and_certify.py`.")
 A("")
 (ROOT / "LEDGER.md").write_text("\n".join(lines), encoding="utf-8")
 print(f"wrote LEDGER.md ({len(lines)} lines) + paper/ledger.csv")
