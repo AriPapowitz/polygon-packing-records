@@ -1,0 +1,59 @@
+category,n,batch,sent,s_ours_full,s_ours_displayed,prior_displayed,prior_holder,margin_lb,mechanism,status_2026-08-16,note
+hex_in_hex,32,B4 ALL19,2026-07-05,6.260881958274990,6.26088+,6.26164,Bhavithran Ananthan,7.58e-04,harvest,STANDING,
+hex_in_hex,33,B4 ALL19,2026-07-05,6.265896788426259,6.26589+,6.26603,Thomas Greenleaf,1.33e-04,harvest,STANDING,
+hex_in_pen,5,B7 FINAL8,2026-07-08,3.219728441230089,3.21972+,3.21973,Jonathan Viquerat,1.56e-06,search,STANDING,small-n blitz; 6th-decimal beat
+hex_in_pen,26,B7 FINAL8,2026-07-08,7.047340522162662,7.04734+,7.04739,Bhavithran Ananthan,4.95e-05,harvest,STANDING,overnight recon+squeeze of a 6-day-old entry
+hex_in_pen,27,B6 ALL26,2026-07-06,7.153071449490314,7.15307+,7.15354,Bhavithran Ananthan,4.69e-04,harvest,STANDING,
+hex_in_pen,30,B6 ALL26,2026-07-06,7.459853596877675,7.45985+,7.46147,Mohamed Metwalli,1.62e-03,harvest,STANDING,
+hex_in_pen,32,B6 ALL26,2026-07-06,7.766495222005064,7.76649+,7.76651,Bhavithran Ananthan,1.48e-05,harvest,credited; re-taken by Bhavithran Ananthan (July 2026),
+oct_in_hex,6,B6 ALL26,2026-07-06,3.947306302388469,3.94730+,3.9496,Mohamed Metwalli,2.29e-03,harvest,STANDING,
+oct_in_hex,20,B6 ALL26,2026-07-06,6.994504805050101,6.99450+,6.99466,Bhavithran Ananthan,1.55e-04,harvest,credited; re-taken by Leo Strijbos (August 2026),
+oct_in_tri,14,B6 ALL26,2026-07-06,14.239214111099999,14.23921+,14.24006,Jonathan Viquerat,8.46e-04,harvest,STANDING,
+oct_in_tri,18,B6 ALL26,2026-07-06,16.409792942504033,16.40979+,16.41137,Bhavithran Ananthan,1.58e-03,harvest,STANDING,
+pen_in_hex,6,B7 FINAL8,2026-07-08,2.322939295665665,2.32293+,2.322943,Bhavithran Ananthan,3.70e-06,search,never credited (table moved first),lost the race: Ananthan re-squeezed his own entry to the same displayed floor before processing; never credited
+pen_in_hex,26,B6 ALL26,2026-07-06,4.660313003943706,4.66031+,4.66044,Bhavithran Ananthan,1.27e-04,harvest,STANDING,
+pen_in_hex,27,B6 ALL26,2026-07-06,4.717566100821409,4.71756+,4.718,Bhavithran Ananthan,4.34e-04,harvest,STANDING,
+pen_in_hex,28,B6 ALL26,2026-07-06,4.843997128569802,4.84399+,4.8441,Bhavithran Ananthan,1.03e-04,harvest,credited; re-taken by Bhavithran Ananthan (July 2026),
+pen_in_hex,29,B6 ALL26,2026-07-06,4.910037168096236,4.91003+,4.91275,Mohamed Metwalli,2.71e-03,harvest,STANDING,
+pen_in_hex,30,B6 ALL26,2026-07-06,4.964065503257694,4.96406+,4.96723,Mohamed Metwalli,3.16e-03,harvest,STANDING,
+pen_in_hex,31,B6 ALL26,2026-07-06,5.093187066228374,5.09318+,5.09328,Bhavithran Ananthan,9.29e-05,harvest,credited; re-taken by Bhavithran Ananthan (July 2026),
+pen_in_oct,28,B6 ALL26,2026-07-06,3.565751008264712,3.56575+,3.56685,Mohamed Metwalli,1.10e-03,harvest,never credited (table moved first),never credited: overtaken before processing — Ananthan posted 3.56402+ (below our 3.56575+) the same day
+pen_in_oct,29,B6 ALL26,2026-07-06,3.618964005470293,3.61896+,3.61924,Bhavithran Ananthan,2.76e-04,harvest,credited; re-taken by Bhavithran Ananthan (July 2026),
+pen_in_oct,30,B6 ALL26,2026-07-06,3.666780445692500,3.66678+,3.66702,Bhavithran Ananthan,2.40e-04,harvest,STANDING,
+pen_in_oct,31,B6 ALL26,2026-07-06,3.744162795016955,3.74416+,3.74457,Bhavithran Ananthan,4.07e-04,harvest,credited; re-taken by Bhavithran Ananthan (July 2026),
+pen_in_squ,8,B7 FINAL8,2026-07-08,4.381909606459235,4.38190+,4.38191,Jonathan Viquerat,3.94e-07,search,STANDING,small-n blitz; 6th-decimal beat
+pen_in_tri,26,B7 FINAL8,2026-07-08,11.455492110823988,11.45549+,11.45623,Bhavithran Ananthan,7.38e-04,harvest,STANDING,overnight recon+squeeze of a 6-day-old entry
+squ_in_hex,30,B5 squinhex,2026-07-06,3.695528789733827,3.69552+,3.69554,Ian Watson,1.12e-05,harvest,STANDING,
+squ_in_hex,40,B5 squinhex,2026-07-06,4.301713931484647,4.30171+,4.30173,Jake Loyd,1.61e-05,harvest,STANDING,
+squ_in_oct,26,B4 ALL19,2026-07-05,2.527094992258591,2.52709+,2.52711,Jake Loyd,1.50e-05,harvest,STANDING,
+squ_in_oct,31,B4 ALL19,2026-07-05,2.784280735143800,2.78428+,2.7857,Mohamed Metwalli,1.42e-03,harvest,credited; re-taken by Aapo Lipponen (July 2026),
+squ_in_oct,32,B4 ALL19,2026-07-05,2.839808692332037,2.83980+,2.84222,Mohamed Metwalli,2.41e-03,harvest,STANDING,
+squ_in_oct,33,B4 ALL19,2026-07-05,2.859036377433378,2.85903+,2.8629,Mohamed Metwalli,3.86e-03,harvest,STANDING,
+squ_in_oct,35,B4 ALL19,2026-07-05,2.906795194041193,2.90679+,2.91052,Mohamed Metwalli,3.72e-03,harvest,credited; re-taken by Aapo Lipponen (July 2026),
+squ_in_oct,36,B1 n36-v1,2026-07-04,2.929028742000000,2.92902+,2.92919,Mohamed Metwalli,1.61e-04,search,superseded by our later submission,"accepted, then superseded same day by the trivial 37-square lattice (10−5√2 = 2.92893+) Erich spotted; 'you did have the record, for about 5 minutes'"
+squ_in_oct,36,B2 n36-v2,2026-07-04,2.928701551520834,2.92870+,2.92893,Trivial (10−5√2),2.28e-04,search,STANDING,vacancy rearrangement of the 37-lattice; BH seeded with lattice-minus-one
+squ_in_oct,38,B4 ALL19,2026-07-05,3.021130178730576,3.02113+,3.02321,Mohamed Metwalli,2.08e-03,harvest,credited; re-taken by Luke Kaiser (August 2026),
+squ_in_oct,39,B4 ALL19,2026-07-05,3.084443082033133,3.08444+,3.08686,Mohamed Metwalli,2.42e-03,harvest,credited; re-taken by Aapo Lipponen (July 2026),
+squ_in_oct,40,B4 ALL19,2026-07-05,3.142017576662691,3.14201+,3.14545,Mohamed Metwalli,3.43e-03,harvest,credited; re-taken by Aapo Lipponen (July 2026),
+squ_in_tri,41,B3 squintri,2026-07-05,10.618802157230435,10.61880+,10.61923,Haowei Lin,4.28e-04,search+drop-one,STANDING,= n=42 configuration minus one square; agrees with 6+8/√3 to 4e-9
+squ_in_tri,42,B3 squintri,2026-07-05,10.618802157230435,10.61880+,10.61956,Haowei Lin,7.58e-04,closed-form,STANDING,"reconstructed Lin's GIF, squeezed to a value agreeing with 6+8/√3 to 4e-9"
+squ_in_tri,43,B3 squintri,2026-07-05,10.773502698922991,10.77350+,10.77405,Haowei Lin,5.47e-04,closed-form,STANDING,value agrees with 5+10/√3 to 7e-9
+tri_in_hex,36,B4 ALL19,2026-07-05,2.583078120356046,2.58307+,2.58309,Thomas Greenleaf,1.19e-05,harvest,STANDING,
+tri_in_oct,31,B6 ALL26,2026-07-06,1.803380228582351,1.80338+,1.80341,Thomas Greenleaf,2.98e-05,harvest,STANDING,
+tri_in_oct,32,B6 ALL26,2026-07-06,1.829942561156610,1.82994+,1.83002,Thomas Greenleaf,7.74e-05,harvest,STANDING,
+tri_in_oct,33,B6 ALL26,2026-07-06,1.852266734494324,1.85226+,1.85532,Mohamed Metwalli,3.05e-03,harvest,superseded by our later submission,
+tri_in_oct,33,B7 FINAL8,2026-07-08,1.847892538040222,1.84789+,1.85226,Aristotle Papowitz (B6),4.37e-03,drop-one,STANDING,cascade from the new n=34; better-basin propagation
+tri_in_oct,34,B6 ALL26,2026-07-06,1.871723168525759,1.87172+,1.87179,Mohamed Metwalli,6.68e-05,harvest,superseded by our later submission,
+tri_in_oct,34,B7 FINAL8,2026-07-08,1.864544399987333,1.86454+,1.87172,Aristotle Papowitz (B6),7.18e-03,drop-one,STANDING,self-improvement −7.2e-3: drop-one from our stronger n=35 basin
+tri_in_oct,35,B6 ALL26,2026-07-06,1.890513580971307,1.89051+,1.89225,Mohamed Metwalli,1.74e-03,harvest,STANDING,
+tri_in_oct,36,B6 ALL26,2026-07-06,1.926678746514661,1.92667+,1.92843,Mohamed Metwalli,1.75e-03,harvest,STANDING,
+tri_in_oct,37,B6 ALL26,2026-07-06,1.956159784268007,1.95615+,1.95803,Mohamed Metwalli,1.87e-03,harvest,STANDING,
+tri_in_pen,28,B4 ALL19,2026-07-05,2.866364405710964,2.86636+,2.868,Ignacio Vallejo,1.64e-03,harvest,STANDING,
+tri_in_pen,29,B4 ALL19,2026-07-05,2.902407086110427,2.90240+,2.903,Ignacio Vallejo,5.93e-04,harvest,STANDING,
+tri_in_pen,30,B4 ALL19,2026-07-05,2.950141785091575,2.95014+,2.9502,Jake Loyd,5.82e-05,harvest,STANDING,
+tri_in_pen,34,B4 ALL19,2026-07-05,3.110731485121739,3.11073+,3.114,Emerson Connelly,3.27e-03,harvest,STANDING,
+tri_in_pen,35,B4 ALL19,2026-07-05,3.148433015984678,3.14843+,3.15,Emerson Connelly,1.57e-03,harvest,STANDING,
+tri_in_pen,36,B4 ALL19,2026-07-05,3.174730905252747,3.17473+,3.177,Emerson Connelly,2.27e-03,harvest,STANDING,
+tri_in_pen,42,B4 ALL19,2026-07-05,3.425057335841219,3.42505+,3.42525,Thomas Greenleaf,1.93e-04,harvest,STANDING,
+tri_in_pen,43,B4 ALL19,2026-07-05,3.464339139102929,3.46433+,3.46441,Thomas Greenleaf,7.09e-05,harvest,superseded by our later submission,
+tri_in_pen,43,B7 FINAL8,2026-07-08,3.464339139102929,3.46433+,3.46438,(table at send time),4.09e-05,self-update,STANDING,deeper certification of our B4 value; display-identical (3.46433+)

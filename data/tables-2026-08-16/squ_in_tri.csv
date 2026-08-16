@@ -1,0 +1,44 @@
+category,n,s,holder,year
+squ_in_tri,1,1 + 2 / &radic;3 = 2.154+,Trivial,
+squ_in_tri,2,2 + 2 / &radic;3 = 3.154+,Trivial,
+squ_in_tri,3,3 / 2 + &radic;3 = 3.232+,Erich Friedman in 1997,
+squ_in_tri,4,3 + 2 / &radic;3 = 4.154+,Erich Friedman in 1997,
+squ_in_tri,5,2 + 4 / &radic;3 = 4.309+,Erich Friedman in 1997,
+squ_in_tri,6,2 + 4 / &radic;3 = 4.309+,Erich Friedman in 1997,
+squ_in_tri,7,4 + 2 / &radic;3 = 5.154+,Erich Friedman in 1997,
+squ_in_tri,8,5.301+,David W. Cantrell,July 2002
+squ_in_tri,9,3 + 4 / &radic;3 = 5.309+,Erich Friedman in 1997,
+squ_in_tri,10,2 + 2 &radic;3 = 5.464+,Erich Friedman in 1997,
+squ_in_tri,11,5 + 2 / &radic;3 = 6.154+,Erich Friedman in 1997,
+squ_in_tri,12,6.301+,David W. Cantrell,July 2002
+squ_in_tri,13,4 + 4 / &radic;3 = 6.309+,Erich Friedman in 1997,
+squ_in_tri,14,3 + 2 &radic;3 = 6.464+,Erich Friedman in 1997,
+squ_in_tri,15,3 + 2 &radic;3 = 6.464+,Erich Friedman in 1997,
+squ_in_tri,16,6 + 2 / &radic;3 = 7.154+,Erich Friedman in 1997,
+squ_in_tri,17,7.301+,David W. Cantrell,July 2002
+squ_in_tri,18,5 + 4 / &radic;3 = 7.309+,Erich Friedman in 1997,
+squ_in_tri,19,4 + 2 &radic;3 = 7.464+,Erich Friedman in 1997,
+squ_in_tri,20,7.61695+,Haowei Lin,July 2026
+squ_in_tri,21,3 + 8 / &radic;3 = 7.618+,Erich Friedman in 1997,
+squ_in_tri,22,7 + 2 / &radic;3  = 8.15259+,Markus Vesterinen,May 2026
+squ_in_tri,23,8.301+,David W. Cantrell,July 2002
+squ_in_tri,24,6 + 4 / &radic;3 = 8.309+,Erich Friedman in 1997,
+squ_in_tri,25,5 + 2 &radic;3 = 8.464+,Erich Friedman in 1997,
+squ_in_tri,26,4 + 8 / &radic;3 = 8.618+,Erich Friedman in 1997,
+squ_in_tri,27,4 + 8 / &radic;3 = 8.618+,Erich Friedman in 1997,
+squ_in_tri,28,3 + 10 / &radic;3 = 8.773+,Erich Friedman in 1997,
+squ_in_tri,29,8 + 2 / &radic;3 = 9.154+,Erich Friedman in 1997,
+squ_in_tri,30,9.301+,David W. Cantrell,July 2002
+squ_in_tri,31,7 + 4 / &radic;3 = 9.309+,Erich Friedman in 1997,
+squ_in_tri,32,6 + 2 &radic;3 = 9.464+,Erich Friedman in 1997,
+squ_in_tri,33,5 + 8 / &radic;3 = 9.618+,Erich Friedman in 1997,
+squ_in_tri,34,5 + 8 / &radic;3 = 9.618+,Erich Friedman in 1997,
+squ_in_tri,35,4 + 10 / &radic;3 = 9.773+,Erich Friedman in 1997,
+squ_in_tri,36,4 + 10 / &radic;3 = 9.773+,Erich Friedman in 1997,
+squ_in_tri,37,10.15299+,Gianluca Costantino,May 2026
+squ_in_tri,38,10.304+,Gianluca Costantino,April 2026
+squ_in_tri,39,8 + 4 / &radic;3  = 10.30940+,Bhavithran Ananthan,July 2026
+squ_in_tri,40,7 + 2&radic;3  = 10.46410+,Bhavithran Ananthan,July 2026
+squ_in_tri,41,10.61880+,Aristotle Papowitz,July 2026
+squ_in_tri,42,10.61880+,Aristotle Papowitz,July 2026
+squ_in_tri,43,10.77350+,Aristotle Papowitz,July 2026

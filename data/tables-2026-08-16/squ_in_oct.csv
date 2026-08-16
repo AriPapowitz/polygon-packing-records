@@ -1,0 +1,41 @@
+category,n,s,holder,year
+squ_in_oct,1,1/&radic;(2+&radic;2) = .54119+,Trivial,
+squ_in_oct,2,&radic;(6&ndash;&radic;2&ndash;&radic;(20&radic;2&ndash;26))/2 = 0.87669+,Maurizio Morandi,December 2013
+squ_in_oct,3,18 &ndash; 12&radic;2 = 1.02940+,Erich Friedman,December 2013
+squ_in_oct,4,&radic;(4&ndash;2&radic;2) = 1.08239+,Trivial,
+squ_in_oct,5,3&radic;2 &ndash; 3 = 1.24261+,Trivial,
+squ_in_oct,6,7 &ndash; 4&radic;2 = 1.34314+,Maurizio Morandi,December 2013
+squ_in_oct,7,&radic;(5&ndash;&radic;2&ndash;&radic;(8&radic;2&ndash;9)) = 1.43690+,Maurizio Morandi,December 2013
+squ_in_oct,8,1.56962+,Grant Mowry,May 2026
+squ_in_oct,9,3/&radic;(2+&radic;2) = 1.62358+,Trivial,
+squ_in_oct,10,1.68171+,Timo Berthold et al,May 2026
+squ_in_oct,11,1.73152+,Jonathan Viquerat,May 2026
+squ_in_oct,12,&radic;(6&ndash;&radic;2&ndash;&radic;(20&radic;2&ndash;26)) = 1.75339+,Maurizio Morandi,December 2013
+squ_in_oct,13,1.89674+,Grant Mowry,May 2026
+squ_in_oct,14,1.98302+,Timo Berthold et al,May 2026
+squ_in_oct,15,2.03168+,Jonathan Viquerat,May 2026
+squ_in_oct,16,5&radic;2 &ndash; 5 = 2.07106+,Trivial,
+squ_in_oct,17,5&radic;2 &ndash; 5 = 2.07106+,Trivial,
+squ_in_oct,18,2.16732+,Timo Berthold et al,May 2026
+squ_in_oct,19,2.22435+,Jake Loyd,May 2026
+squ_in_oct,20,2.28598+,Jake Loyd,May 2026
+squ_in_oct,21,sqrt(48&ndash;9&radic;2&ndash;3&radic;(104&radic;2&ndash;126))/2 = 2.31833+,Jake Loyd,May 2026
+squ_in_oct,22,2.41575+,Jake Loyd,May 2026
+squ_in_oct,23,2.46879+,Jake Loyd,May 2026
+squ_in_oct,24,6&radic;2&ndash;6 = 2.48528+,Trivial,
+squ_in_oct,25,17(2&ndash;&radic;2)/4 = 2.48959+,Jake Loyd,May 2026
+squ_in_oct,26,2.52709+,Aristotle Papowitz,July 2026
+squ_in_oct,27,2.58584+,Jake Loyd,May 2026
+squ_in_oct,28,2.62788+,Jake Loyd,May 2026
+squ_in_oct,29,2.70553+,Jake Loyd,May 2026
+squ_in_oct,30,2(11&ndash;&radic;2)/7 = 2.73879+,Maurizio Morandi,May 2026
+squ_in_oct,31,2.78401+,Aapo Lipponen,July 2026
+squ_in_oct,32,2.83980+,Aristotle Papowitz,July 2026
+squ_in_oct,33,2.85903+,Aristotle Papowitz,July 2026
+squ_in_oct,34,7&radic;2&ndash;7 = 2.89949+,Mohamed Metwalli,June 2026
+squ_in_oct,35,2.90678+,Aapo Lipponen,July 2026
+squ_in_oct,36,2.92870+,Aristotle Papowitz,July 2026
+squ_in_oct,37,10&ndash;5&radic;2 = 2.92893+,Trivial,
+squ_in_oct,38,3.02060+,Luke Kaiser,August 2026
+squ_in_oct,39,3.08204+,Aapo Lipponen,July 2026
+squ_in_oct,40,3.14120+,Aapo Lipponen,July 2026

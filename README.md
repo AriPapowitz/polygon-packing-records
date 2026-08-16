@@ -4,10 +4,13 @@ A GPU toolkit for finding record packings of unit regular polygons inside minima
 regular containers — the problems catalogued on
 [Erich Friedman's Packing Center](https://erich-friedman.github.io/packing/).
 
-During June–July 2026 this toolkit set **60+ records** across ten of the site's
-tables (triangles/squares/pentagons/hexagons/octagons in various containers);
-**49 are standing** as of July 9, 2026 under the name *Aristotle Papowitz*. The
-full campaign log — what worked, what failed, and every negative result — is in
+During July 4–8, 2026 this toolkit produced **58 record submissions** across 14
+of the site's tables (triangles/squares/pentagons/hexagons/octagons in various
+containers) — 54 distinct problems, 52 credited under the name *Aristotle
+Papowitz*, **41 still standing as of August 16, 2026**. The full reconciled
+record ledger (every claim, margin, mechanism, and current status, frozen
+against dated table scrapes) is in [LEDGER.md](LEDGER.md); the chronological
+campaign log — what worked, what failed, and every negative result — is in
 [CAMPAIGN.md](CAMPAIGN.md).
 
 <p align="center">

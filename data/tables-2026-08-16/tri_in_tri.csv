@@ -1,0 +1,51 @@
+category,n,s,holder,year
+tri_in_tri,1,1,Trivial,
+tri_in_tri,2,2,Trivial,
+tri_in_tri,3,2,Trivial,
+tri_in_tri,4,2,Trivial,
+tri_in_tri,5,1 + &radic;3 = 2.732+,,
+tri_in_tri,6,13/8 + 3&radic;13/8 = 2.977+,Maurizio Morandi,August 2008
+tri_in_tri,7,3,Trivial,
+tri_in_tri,8,3,Trivial,
+tri_in_tri,9,3,Trivial,
+tri_in_tri,10,7/2 = 3.5,Erich Friedman in 1997,
+tri_in_tri,11,9/4 + 9&radic;21/28 = 3.722+,Erich Friedman in 1997,
+tri_in_tri,12,2 + 2cos(&pi;/9) = 3.879+,David W. Cantrell,July 2007
+tri_in_tri,13,3.992+,Maurizio Morandi,May 2008
+tri_in_tri,14,4,Trivial,
+tri_in_tri,15,4,Trivial,
+tri_in_tri,16,4,Trivial,
+tri_in_tri,17,4.465+,Maurizio Morandi,May 2008
+tri_in_tri,18,9/2 = 4.5,Erich Friedman in 1997,
+tri_in_tri,19,14/3 = 4.666+,Maurizio Morandi,May 2008
+tri_in_tri,20,33/8 + 9&radic;21/56 = 4.861+,Maurizio Morandi,May 2008
+tri_in_tri,21,4.923+,Maurizio Morandi,May 2008
+tri_in_tri,22,4.996+,Maurizio Morandi,May 2008
+tri_in_tri,23,5,Trivial,
+tri_in_tri,24,5,Trivial,
+tri_in_tri,25,5,Trivial,
+tri_in_tri,26,5.406+,Joah Frenzley,April 2026
+tri_in_tri,27,11/2 = 5.5,Erich Friedman in 1997,
+tri_in_tri,28,11/2 = 5.5,Erich Friedman in 1997,
+tri_in_tri,29,17/3 = 5.666+,David W. Cantrell,July 2007
+tri_in_tri,30,23/4 = 5.75,Maurizio Morandi,May 2008
+tri_in_tri,31,5.90766+,Thomas Schadt,June 2026
+tri_in_tri,32,5.94593+,Maurizio Morandi,May 2026
+tri_in_tri,33,5.99759+,Maurizio Morandi,June 2026
+tri_in_tri,34,6,Trivial,
+tri_in_tri,35,6,Trivial,
+tri_in_tri,36,6,Trivial,
+tri_in_tri,37,19/3 = 6.333+,Ian Watson,April 2026
+tri_in_tri,38,6.42823+,Thomas Schadt,June 2026
+tri_in_tri,39,13/2 = 6.5,Erich Friedman,April 2026
+tri_in_tri,40,13/2 = 6.5,Erich Friedman,April 2026
+tri_in_tri,41,20/3 = 6.666+,Emerson Connelly,May 2026
+tri_in_tri,42,27/4 = 6.75,Emerson Connelly,May 2026
+tri_in_tri,43,34/5 = 6.8,Emerson Connelly,May 2026
+tri_in_tri,44,6.93076+,Thomas Schadt,June 2026
+tri_in_tri,45,6.95922+,Maurizio Morandi,May 2026
+tri_in_tri,46,6.99837+,Maurizio Morandi,June 2026
+tri_in_tri,47,7,Trivial,
+tri_in_tri,48,7,Trivial,
+tri_in_tri,49,7,Trivial,
+tri_in_tri,50,7 + &radic;21/14 = 7.32732+,Maurizio Morandi,May 2026
