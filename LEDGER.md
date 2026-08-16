@@ -43,7 +43,7 @@ Mechanisms (per problem, final value): harvest ×45, search ×4, closed-form ×2
 |---|---|---|
 | 1 | harvest | reconstruct incumbent's published image (~0.1 px), converge it in float64 below their displayed floor |
 | 2 | search | new arrangement found by batched GPU multi-start / structured basin-hopping |
-| 3 | closed-form | harvest that landed on a value agreeing with an exact algebraic form the incumbent missed |
+| 3 | closed-form | harvest that landed on an exact algebraic value the incumbent missed (confirmed by 160-digit exact-solve + PSLQ) |
 | 4 | drop-one | remove one shape from a stronger (n+1)-packing, re-squeeze; cascades downward |
 
 ## The ledger
@@ -138,7 +138,15 @@ submitted coordinates re-certified to the claimed value on 2026-08-16.
 4. **Resubmitted cells.** squ_in_oct 36 (after the trivial-lattice supersession),
    tri_in_pen 43 (display-identical deeper certification), tri_in_oct 34 and 33
    (drop-one self-improvements of our own week-old values, −7.2e-3 and −4.4e-3).
-5. **Provenance.** Claimed values and coordinates: batch emails + coordinate
+5. **Exact forms (confirmed 2026-08-16).** The contact systems of squ_in_tri
+   41/42 and 43 solve exactly to **6+8/√3** and **5+10/√3** (160-digit
+   contact-manifold Gauss–Newton, quadratic convergence to |F| < 1e-160; PSLQ
+   minimal polynomials 3s²−36s+44 and 3s²−30s−25; see
+   `polygon-packer/results/exact_squ_in_tri_4*.md`). The submitted f64 values
+   sit 3.7e-9 / 7.0e-9 above the exact bottoms — identical truncated display.
+   Structure: n=43 has 25/43 load-bearing squares (13-dim floppy manifold);
+   n=42/41 have 39/38 load-bearing (9-dim).
+6. **Provenance.** Claimed values and coordinates: batch emails + coordinate
    files in `submissions/sent_batches/` (private), frozen as JSON in
    `paper/solutions/` (public). Table history: `data/tables-*/`. Certification:
    `paper/certification.csv`, regenerable with `paper/collect_and_certify.py`.

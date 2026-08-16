@@ -110,11 +110,13 @@ add("B1 n36-v1", "2026-07-04", "squ_in_oct", 36, 2.929028742, 2.92919, "Mohamed 
 add("B2 n36-v2", "2026-07-04", "squ_in_oct", 36, 2.928701551520834, 2.92893, "Trivial (10−5√2)",
     "search", "vacancy rearrangement of the 37-lattice; BH seeded with lattice-minus-one")
 add("B3 squintri", "2026-07-05", "squ_in_tri", 41, 10.618802157230435, 10.61923, "Haowei Lin",
-    "search+drop-one", "= n=42 configuration minus one square; agrees with 6+8/√3 to 4e-9")
+    "search+drop-one", "= n=42 configuration minus one square; exact-solve confirmed "
+    "s = 6+8/√3 exactly (minpoly 3s²−36s+44)")
 add("B3 squintri", "2026-07-05", "squ_in_tri", 42, 10.618802157230435, 10.61956, "Haowei Lin",
-    "closed-form", "reconstructed Lin's GIF, squeezed to a value agreeing with 6+8/√3 to 4e-9")
+    "closed-form", "reconstructed Lin's GIF; exact-solve confirmed s = 6+8/√3 exactly "
+    "(160-digit contact solve + PSLQ, minpoly 3s²−36s+44)")
 add("B3 squintri", "2026-07-05", "squ_in_tri", 43, 10.773502698922991, 10.77405, "Haowei Lin",
-    "closed-form", "value agrees with 5+10/√3 to 7e-9")
+    "closed-form", "exact-solve confirmed s = 5+10/√3 exactly (minpoly 3s²−30s−25)")
 
 _all19_prior = {  # displayed floors quoted in submission_ALL19_email.txt
     ("tri_in_pen", 28): 2.868, ("tri_in_pen", 29): 2.903, ("tri_in_pen", 30): 2.95020,
@@ -354,7 +356,7 @@ A("| # | Mechanism | Meaning |")
 A("|---|---|---|")
 A("| 1 | harvest | reconstruct incumbent's published image (~0.1 px), converge it in float64 below their displayed floor |")
 A("| 2 | search | new arrangement found by batched GPU multi-start / structured basin-hopping |")
-A("| 3 | closed-form | harvest that landed on a value agreeing with an exact algebraic form the incumbent missed |")
+A("| 3 | closed-form | harvest that landed on an exact algebraic value the incumbent missed (confirmed by 160-digit exact-solve + PSLQ) |")
 A("| 4 | drop-one | remove one shape from a stronger (n+1)-packing, re-squeeze; cascades downward |")
 A("")
 A("## The ledger")
@@ -402,7 +404,15 @@ A(f"   decay: {n_cred} credited → {standing_at['2026-07-09']} standing Jul 9 �
 A("4. **Resubmitted cells.** squ_in_oct 36 (after the trivial-lattice supersession),")
 A("   tri_in_pen 43 (display-identical deeper certification), tri_in_oct 34 and 33")
 A("   (drop-one self-improvements of our own week-old values, −7.2e-3 and −4.4e-3).")
-A("5. **Provenance.** Claimed values and coordinates: batch emails + coordinate")
+A("5. **Exact forms (confirmed 2026-08-16).** The contact systems of squ_in_tri")
+A("   41/42 and 43 solve exactly to **6+8/√3** and **5+10/√3** (160-digit")
+A("   contact-manifold Gauss–Newton, quadratic convergence to |F| < 1e-160; PSLQ")
+A("   minimal polynomials 3s²−36s+44 and 3s²−30s−25; see")
+A("   `polygon-packer/results/exact_squ_in_tri_4*.md`). The submitted f64 values")
+A("   sit 3.7e-9 / 7.0e-9 above the exact bottoms — identical truncated display.")
+A("   Structure: n=43 has 25/43 load-bearing squares (13-dim floppy manifold);")
+A("   n=42/41 have 39/38 load-bearing (9-dim).")
+A("6. **Provenance.** Claimed values and coordinates: batch emails + coordinate")
 A("   files in `submissions/sent_batches/` (private), frozen as JSON in")
 A("   `paper/solutions/` (public). Table history: `data/tables-*/`. Certification:")
 A("   `paper/certification.csv`, regenerable with `paper/collect_and_certify.py`.")

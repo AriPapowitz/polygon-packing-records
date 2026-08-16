@@ -34,9 +34,9 @@ squ_in_oct,36,2.928701551520834,2.92870+,2.92893,Trivial (10−5√2),2.28e-04,s
 squ_in_oct,38,3.021130178730576,3.02113+,3.02321,Mohamed Metwalli,2.08e-03,harvest,2026-07-05,2026-07-06,re-taken by Luke Kaiser (August 2026),yes,,
 squ_in_oct,39,3.084443082033133,3.08444+,3.08686,Mohamed Metwalli,2.42e-03,harvest,2026-07-05,2026-07-06,re-taken by Aapo Lipponen (July 2026),yes,,
 squ_in_oct,40,3.142017576662691,3.14201+,3.14545,Mohamed Metwalli,3.43e-03,harvest,2026-07-05,2026-07-06,re-taken by Aapo Lipponen (July 2026),yes,,
-squ_in_tri,41,10.618802157230435,10.61880+,10.61923,Haowei Lin,4.28e-04,search+drop-one,2026-07-05,2026-07-06,standing,yes,,= n=42 configuration minus one square; agrees with 6+8/√3 to 4e-9
-squ_in_tri,42,10.618802157230435,10.61880+,10.61956,Haowei Lin,7.58e-04,closed-form,2026-07-05,2026-07-06,standing,yes,,"reconstructed Lin's GIF, squeezed to a value agreeing with 6+8/√3 to 4e-9"
-squ_in_tri,43,10.773502698922991,10.77350+,10.77405,Haowei Lin,5.47e-04,closed-form,2026-07-05,2026-07-06,standing,yes,,value agrees with 5+10/√3 to 7e-9
+squ_in_tri,41,10.618802157230435,10.61880+,10.61923,Haowei Lin,4.28e-04,search+drop-one,2026-07-05,2026-07-06,standing,yes,,= n=42 configuration minus one square; exact-solve confirmed s = 6+8/√3 exactly (minpoly 3s²−36s+44)
+squ_in_tri,42,10.618802157230435,10.61880+,10.61956,Haowei Lin,7.58e-04,closed-form,2026-07-05,2026-07-06,standing,yes,,"reconstructed Lin's GIF; exact-solve confirmed s = 6+8/√3 exactly (160-digit contact solve + PSLQ, minpoly 3s²−36s+44)"
+squ_in_tri,43,10.773502698922991,10.77350+,10.77405,Haowei Lin,5.47e-04,closed-form,2026-07-05,2026-07-06,standing,yes,,exact-solve confirmed s = 5+10/√3 exactly (minpoly 3s²−30s−25)
 tri_in_hex,36,2.583078120356046,2.58307+,2.58309,Thomas Greenleaf,1.19e-05,harvest,2026-07-05,2026-07-06,standing,yes,,
 tri_in_oct,31,1.803380228582351,1.80338+,1.80341,Thomas Greenleaf,2.98e-05,harvest,2026-07-06,2026-07-06,standing,yes,,
 tri_in_oct,32,1.829942561156610,1.82994+,1.83002,Thomas Greenleaf,7.74e-05,harvest,2026-07-06,2026-07-06,standing,yes,,

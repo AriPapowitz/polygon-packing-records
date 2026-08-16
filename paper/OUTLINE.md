@@ -114,12 +114,17 @@ One 65-digit contact-system analysis with a provable no-closed-form certificate.
   tri_in_oct 35 → 34 (−7.2e-3) → 33 (−4.4e-3), halting at converged 32; measured
   yield: ~400 seeds → exactly one (two-record) cascade.
 - 4.4 Exact solving: contact graph → independent constraints (pivoted QR) →
-  min-norm Gauss–Newton in 80–160-digit arithmetic (quadratic convergence
-  1e-8 → 1e-80) → PSLQ. Results: squ_in_tri 42/43 agree with 6+8/√3 and 5+10/√3
-  to ~4e-9 (settle exactly pre-submission — task V2); squ_in_oct 26 at 65 digits
-  with **no minimal polynomial ≤ deg 8 (coeffs ≤ 1e8)** — a no-closed-form
-  certificate; structure: 4 rattlers, 8 floppy modes, 59 independent contacts.
-  Figure F6: contact graph with rattlers highlighted.
+  min-norm Gauss–Newton in 160-digit arithmetic (quadratic convergence,
+  |F| 1e-8 → 1e-160 in 5 iterations) → PSLQ. Results (all confirmed 2026-08-16):
+  **squ_in_tri 41/42 = 6+8/√3 exactly** (minpoly 3s²−36s+44) and
+  **squ_in_tri 43 = 5+10/√3 exactly** (minpoly 3s²−30s−25) — closed forms three
+  prior record iterations missed, extending the known a+b/√3 staircase family;
+  the f64 record values sit 3.7e-9/7.0e-9 above the exact bottoms. Contrast:
+  squ_in_oct 26 at 65 digits has **no minimal polynomial ≤ deg 8 (coeffs ≤
+  1e8)** — a no-closed-form certificate. Structure facts: squ_in_oct 26 —
+  4 rattlers, 8 floppy modes, 59 independent contacts; squ_in_tri 43 — 25/43
+  load-bearing, 13-dim floppy manifold; 42/41 — 39/38 load-bearing, 9-dim.
+  Figure F6: contact graph with rattlers/floppy squares highlighted.
 
 ### 5. The campaign as experiment (~4 pp)  [C2, C4]
 - 5.1 The ledger: Table T1 = condensed LEDGER.md (58 submissions, 54 cells,
@@ -200,10 +205,13 @@ One 65-digit contact-system analysis with a provable no-closed-form certificate.
   rebuilds all 54 claims (+ the n8 tie) from the sent artifacts and re-certifies:
   55/55 reproduce claimed values to ≤1e-9 (`paper/certification.csv`,
   `paper/solutions/`). Re-run the week of posting.
-- V2 **Settle the closed forms**: exact_solve on squ_in_tri 41/42/43 (squares —
-  supported); report "= 6+8/√3 (exact-solve to N digits)" or "agrees to 4e-9,
-  form unproven" — whichever the computation supports. Also re-verify the
-  10−5√2 trivial-lattice statement for squ_in_oct 36/37.
+- V2 **Settle the closed forms**: ✅ DONE 2026-08-16 — exact_solve confirms
+  squ_in_tri 41/42 = 6+8/√3 and 43 = 5+10/√3 exactly (160-digit contact solve,
+  PSLQ minpolys 3s²−36s+44 / 3s²−30s−25; `results/exact_squ_in_tri_4*.md`).
+  Remaining: re-verify the 10−5√2 trivial-lattice statement for squ_in_oct
+  36/37 in the text. Optional polish: save exact-solve's refined coordinates
+  and re-certify them, upgrading "contact system solves to the form" to
+  "a certified packing exists at the exact form".
 - V3 **Freshest scrape** the week of posting; update LEDGER "standing" count and
   the attrition figure (the paper claims a dated snapshot, not eternity).
 - V4 **Fact-check every campaign number** quoted in the paper against logs:
