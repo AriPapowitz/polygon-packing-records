@@ -3,6 +3,12 @@
 Working doc for the arXiv preprint, to be adapted for journal submission afterwards.
 Companion data: `LEDGER.md` / `paper/ledger.csv` (frozen 2026-08-16).
 
+**STATUS 2026-08-16: full draft exists — `paper/paper.tex` (9 pp, compiles;
+`paper/paper.pdf`), figures in `paper/figures/` via `make_figures.py`. Shorter
+than this outline by design (user directive: concise). Remaining before arXiv:
+W5 bib verification (all `% TODO-V5` marks in the .tex), W6 red-team pass,
+V3 fresh scrape at posting, V4 pin cloud spend, V6 courtesy email to Erich.**
+
 ## Strategy
 
 - **Preprint first** (arXiv), venue-agnostic LaTeX, then adapt. In a field where
