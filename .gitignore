@@ -6,4 +6,11 @@ submissions/
 polygon-packer/results/night_harvest/
 *.tmp
 nul
+# unpublished manuscript stays out of the public repo; verification artifacts
+# (ledger.csv, certification.csv, solutions/, build scripts) remain public
 paper/preview/
+paper/paper.tex
+paper/paper.pdf
+paper/OUTLINE.md
+paper/make_figures.py
+paper/figures/

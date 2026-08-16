@@ -187,17 +187,25 @@ def solve(path):
     name = os.path.basename(path).replace(".json", "")
     out = [f"# Exact-solve: {name}", "",
            f"high-precision s = {mp.nstr(ratio, 65)}",
+           f"        (150 digits) {mp.nstr(ratio, 150)}",
            f"(f64 was {sol['side_length']:.15f})", ""]
     v = ratio
     found = False
     for deg in range(2, 9):
         rel = pslq([v ** k for k in range(deg + 1)], maxcoeff=10 ** 8, maxsteps=10 ** 6)
         if rel:
-            out.append(f"minimal polynomial candidate (deg {deg}): {rel}")
-            found = True
-            break
+            # PSLQ candidates can be spurious at this coefficient budget --
+            # accept only relations whose residual vanishes at full precision.
+            resid = abs(sum(mpf(rel[k]) * v ** k for k in range(deg + 1)))
+            ok = resid < mpf(10) ** (-140)
+            out.append(f"PSLQ candidate (deg {deg}): {rel}   residual {mp.nstr(resid, 5)}"
+                       f" -> {'VALIDATED at 140+ digits' if ok else 'REJECTED (spurious)'}")
+            if ok:
+                found = True
+                break
     if not found:
-        out.append("no minimal polynomial up to degree 8 / coeffs 1e8 at 60+ digits")
+        out.append("no relation of degree <= 8, coefficients <= 1e8, survives "
+                   "residual validation at 140-digit precision")
     al = sqrt(2 + sqrt(2))
     rel = pslq([v, mpf(1), al, al ** 2, al ** 3], maxcoeff=10 ** 6, maxsteps=10 ** 6)
     out.append(f"Q(sqrt(2+sqrt2)) relation: {rel}")
