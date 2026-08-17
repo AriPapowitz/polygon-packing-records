@@ -18,6 +18,8 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("solution")
     ap.add_argument("-o", "--out", default=None)
+    ap.add_argument("--no-title", action="store_true",
+                    help="omit the baked-in title (for paper figures)")
     args = ap.parse_args()
 
     with open(args.solution) as f:
@@ -39,7 +41,8 @@ def main():
     ax.set_aspect("equal")
     ax.set_axis_off()
     ratio = sol.get("certified_side_length", sol["side_length"])
-    ppt.title(f"n={n}: side = {ratio:.12f}")
+    if not args.no_title:
+        ppt.title(f"n={n}: side = {ratio:.12f}")
 
     out = args.out or os.path.splitext(args.solution)[0] + ".png"
     ppt.savefig(out, dpi=150, bbox_inches="tight")
