@@ -42,7 +42,7 @@ def run_ours(n, nsi, nsc, budget):
     anneal = eng.make_anneal(1e-8)
     rng = np.random.default_rng(0)
     key = jax.random.PRNGKey(0)
-    B = 48
+    B = 16
     best_s, best_x, best_S, starts = np.inf, None, None, 0
     while time.time() - t0 < budget:
         xs, Ss = [], []
@@ -93,19 +93,26 @@ def run_reference(n, nsi, nsc, budget):
             K = max(4, int(K * min(4.0, max(0.25, 90.0 / max(dt, 1)))))
     return best, attempts, time.time() - t0
 
-rows = []
-for n, nsi, nsc, cat, known, note in INSTANCES:
-    for name, fn in (("engine", run_ours), ("reference", run_reference)):
-        s, starts, dt = fn(n, nsi, nsc, BUDGET)
-        gap = s - known
-        rows.append([cat, n, name, f"{dt:.0f}", starts, f"{s:.9f}",
-                     f"{known:.9f}", f"{gap:+.2e}", note])
-        print(f"{cat} n={n} [{name}]: best {s:.9f} vs known {known:.9f} "
-              f"({gap:+.1e}), {starts} starts in {dt:.0f}s", flush=True)
-
-with open(ROOT / "paper" / "baseline_cpu.csv", "w", newline="", encoding="utf-8") as fh:
-    w = csv.writer(fh)
+OUT = ROOT / "paper" / "baseline_cpu.csv"
+done = set()
+if OUT.exists():
+    for r in csv.DictReader(open(OUT, encoding="utf-8")):
+        done.add((r["category"], int(r["n"]), r["system"]))
+fh = open(OUT, "a", newline="", encoding="utf-8")
+w = csv.writer(fh)
+if not done:
     w.writerow(["category", "n", "system", "seconds", "starts", "best_s",
                 "best_known_s", "gap", "note"])
-    w.writerows(rows)
+for n, nsi, nsc, cat, known, note in INSTANCES:
+    for name, fn in (("engine", run_ours), ("reference", run_reference)):
+        if (cat, n, name) in done:
+            continue
+        s, starts, dt = fn(n, nsi, nsc, BUDGET)
+        gap = s - known
+        w.writerow([cat, n, name, f"{dt:.0f}", starts, f"{s:.9f}",
+                    f"{known:.9f}", f"{gap:+.2e}", note])
+        fh.flush()
+        print(f"{cat} n={n} [{name}]: best {s:.9f} vs known {known:.9f} "
+              f"({gap:+.1e}), {starts} starts in {dt:.0f}s", flush=True)
+fh.close()
 print("-> paper/baseline_cpu.csv")

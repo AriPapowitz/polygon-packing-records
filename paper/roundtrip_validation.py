@@ -78,11 +78,28 @@ def aligned_error(true_xy, true_a, rec_xy, rec_a, nsi, nsc):
                 best = (errs.mean(), errs.max(), np.abs(da).mean())
     return best
 
+OUT = ROOT / "paper" / "roundtrip.csv"
+done = set()
+if OUT.exists():
+    for r in csv.DictReader(open(OUT, encoding="utf-8")):
+        done.add((r["category"], int(r["n"])))
+out_fh = open(OUT, "a", newline="", encoding="utf-8")
+out_w = csv.writer(out_fh)
+if not done:
+    out_w.writerow(["category", "n", "px_per_unit", "center_err_px_mean",
+                    "center_err_px_max", "angle_err_rad_mean",
+                    "s_after_squeeze", "delta_vs_true", "verdict"])
+def emit(row):
+    out_w.writerow(row)
+    out_fh.flush()
+
 rows = []
 t_all = time.time()
 for f in sorted(SOL.glob("*.json")):
     cat, ns = f.stem.rsplit("_", 1)
     n = int(ns)
+    if (cat, n) in done:
+        continue
     sol = json.load(open(f, encoding="utf-8"))
     nsi, nsc = sol["inner_sides"], sol["container_sides"]
     s_true = sol["side_length"]
@@ -95,8 +112,8 @@ for f in sorted(SOL.glob("*.json")):
              str(nsc), f"{s_true:.6f}", "--out", str(rec_path)],
             capture_output=True, text=True, timeout=300)
         if not rec_path.exists():
-            rows.append([cat, n, f"{scale:.2f}", "", "", "", "", "",
-                         "RECON-FAILED"])
+            emit([cat, n, f"{scale:.2f}", "", "", "", "", "",
+                  "RECON-FAILED"])
             print(f"{cat} n={n}: reconstruction FAILED "
                   f"({r.stdout.strip()[-80:]} {r.stderr.strip()[-80:]})", flush=True)
             continue
@@ -115,9 +132,9 @@ for f in sorted(SOL.glob("*.json")):
         S_r, x_r, valid = eng.refine64(vals, S0, iters=300, grow_rounds=40,
                                        squeeze_rounds=150, squeeze_step=4e-4)
         if not bool(valid[0]):
-            rows.append([cat, n, f"{scale:.2f}", f"{mean_e * scale:.3f}",
-                         f"{max_e * scale:.3f}", f"{ang_e:.4f}", "", "",
-                         "REFINE-INVALID"])
+            emit([cat, n, f"{scale:.2f}", f"{mean_e * scale:.3f}",
+                  f"{max_e * scale:.3f}", f"{ang_e:.4f}", "", "",
+                  "REFINE-INVALID"])
             print(f"{cat} n={n}: err {mean_e*scale:.2f}px mean, refine "
                   f"INVALID [{time.time()-t0:.0f}s]", flush=True)
             continue
@@ -138,19 +155,12 @@ for f in sorted(SOL.glob("*.json")):
                                             angle=float(c)) for a, b, c in xr],
                            method="roundtrip squeeze landed below source"),
                       open(below / f"{cat}_{n:02d}.json", "w"), indent=1)
-        rows.append([cat, n, f"{scale:.2f}", f"{mean_e * scale:.3f}",
-                     f"{max_e * scale:.3f}", f"{ang_e:.4f}", f"{s_rec:.12f}",
-                     f"{d:+.3e}", verdict])
+        emit([cat, n, f"{scale:.2f}", f"{mean_e * scale:.3f}",
+              f"{max_e * scale:.3f}", f"{ang_e:.4f}", f"{s_rec:.12f}",
+              f"{d:+.3e}", verdict])
         print(f"{cat} n={n}: err {mean_e*scale:.2f}px mean / {max_e*scale:.2f}px max, "
               f"squeezed {s_rec:.9f} vs {s_true:.9f} ({d:+.1e}) "
               f"{verdict} [{time.time()-t0:.0f}s]", flush=True)
 
-with open(ROOT / "paper" / "roundtrip.csv", "w", newline="", encoding="utf-8") as fh:
-    w = csv.writer(fh)
-    w.writerow(["category", "n", "px_per_unit", "center_err_px_mean",
-                "center_err_px_max", "angle_err_rad_mean", "s_after_squeeze",
-                "delta_vs_true", "verdict"])
-    w.writerows(rows)
-ok = sum(1 for r in rows if r[-1] == "SAME-BASIN")
-print(f"done in {(time.time()-t_all)/60:.0f} min: {ok}/{len(rows)} same-basin "
-      f"-> paper/roundtrip.csv")
+out_fh.close()
+print(f"pass finished in {(time.time()-t_all)/60:.0f} min -> paper/roundtrip.csv")
