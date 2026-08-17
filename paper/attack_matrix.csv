@@ -1,0 +1,552 @@
+category,n,outcome,mechanisms,incumbent_at_attempt,incumbent_floor,our_best_logged,evidence
+hex_in_hex,12,no-improvement,search (blitz-3),Alpha Evolve,3.94164,,blitz3_targets.txt (aggregate: 0/69 improvements)
+hex_in_hex,14,tie-documented,drop-one (night sweep); harvest,Dominik Kamp,4.26899,4.268995140,night_harvest/do0_* | sweep_results.md
+hex_in_hex,15,tie-documented,drop-one (night sweep); harvest,Alex Kravatsky et al,4.44727,4.447271181,night_harvest/do0_* | sweep_results.md
+hex_in_hex,16,tie-documented,drop-one (night sweep); harvest,Alex Kravatsky et al,4.52746,4.527508076,night_harvest/do0_* | sweep_results.md
+hex_in_hex,17,tie-documented,drop-one (night sweep); harvest,Alex Kravatsky et al,4.6136,4.613616200,night_harvest/do0_* | sweep_results.md
+hex_in_hex,18,attempted,drop-one (night sweep); search (BH/GPU),Maurizio Morandi,,,night_harvest/do0_* | results/*_bh_*
+hex_in_hex,22,attempted,drop-one (night sweep),Maurizio Morandi,,,night_harvest/do0_*
+hex_in_hex,23,tie-documented,harvest,Jonathan Viquerat,5.39998,5.400000006,sweep_results.md
+hex_in_hex,24,attempted,drop-one (night sweep),Maurizio Morandi,,,night_harvest/do0_*
+hex_in_hex,25,tie-documented,drop-one (night sweep); harvest,Alex Kravatsky et al,5.6239,5.623931683,night_harvest/do0_* | sweep_results.md
+hex_in_hex,26,tie-documented,drop-one (night sweep); harvest,Alex Kravatsky et al,5.70972,5.709808154,night_harvest/do0_* | sweep_results.md
+hex_in_hex,27,tie-documented,drop-one (night sweep); harvest,Alex Kravatsky et al,5.71415,5.714146599,night_harvest/do0_* | sweep_results.md
+hex_in_hex,28,tie-documented,harvest,Alex Kravatsky et al,5.90893,5.908957689,sweep_results.md
+hex_in_hex,32,beaten-claimed,drop-one (night sweep); harvest,Bhavithran Ananthan,6.26164,6.260881958274990,ledger: standing | night_harvest/do0_* | sweep_results.md
+hex_in_hex,33,beaten-claimed,harvest,Thomas Greenleaf,6.26603,6.265896788426259,ledger: standing | sweep_results.md
+hex_in_oct,3,tie-documented,search (blitz-1),Jonathan Viquerat,1.60645,1.606450747,blitz_final.txt | blitz_targets.txt
+hex_in_oct,4,tie-documented,search (blitz-1),Jonathan Viquerat,1.7563,1.756300685,blitz_final.txt | blitz_targets.txt
+hex_in_oct,5,tie-documented,search (blitz-1),Jonathan Viquerat,1.98707,1.987076693,blitz_final.txt | blitz_targets.txt
+hex_in_oct,6,tie-documented,drop-one (night sweep); harvest; search (blitz-2),Nicolas Campailla,2.16435,2.164402515,blitz2_targets.txt (aggregate: 49 ties) | night_harvest/do0_* | sweep_results.md
+hex_in_oct,7,tie-documented,drop-one (night sweep); harvest; search (blitz-2),Jonathan Viquerat,2.18284,2.182843621,blitz2_targets.txt (aggregate: 49 ties) | night_harvest/do0_* | sweep_results.md
+hex_in_oct,8,tie-documented,drop-one (night sweep); harvest; search (blitz-2),Jonathan Viquerat,2.40792,2.407921900,blitz2_targets.txt (aggregate: 49 ties) | night_harvest/do0_* | sweep_results.md
+hex_in_oct,9,tie-documented,drop-one (night sweep); harvest; search (blitz-3),Jonathan Viquerat,2.62665,2.626656349,blitz3_targets.txt (aggregate: 0/69 improvements) | night_harvest/do0_* | sweep_results.md
+hex_in_oct,10,tie-documented,harvest; search (blitz-3),Jonathan Viquerat,2.74238,2.742383394,blitz3_targets.txt (aggregate: 0/69 improvements) | sweep_results.md
+hex_in_oct,11,attempted,drop-one (night sweep),Jonathan Viquerat,,,night_harvest/do0_*
+hex_in_oct,12,tie-documented,drop-one (night sweep); harvest; search (blitz-3),Timo Berthold et al,2.92139,2.921401871,blitz3_targets.txt (aggregate: 0/69 improvements) | night_harvest/do0_* | sweep_results.md
+hex_in_oct,13,tie-documented,drop-one (night sweep); harvest,Jonathan Viquerat,3.07201,3.072014050,night_harvest/do0_* | sweep_results.md
+hex_in_oct,14,tie-documented,drop-one (night sweep); harvest,Jonathan Viquerat,3.13475,3.134757089,night_harvest/do0_* | sweep_results.md
+hex_in_oct,15,tie-documented,drop-one (night sweep); harvest,Timo Berthold et al,3.28379,3.283847389,night_harvest/do0_* | sweep_results.md
+hex_in_oct,16,tie-documented,drop-one (night sweep); harvest,Timo Berthold et al,3.37007,3.370253197,night_harvest/do0_* | sweep_results.md
+hex_in_oct,17,tie-documented,drop-one (night sweep); harvest,Jake Loyd,3.47655,3.476713309,night_harvest/do0_* | sweep_results.md
+hex_in_oct,18,tie-documented,harvest,Timo Berthold et al,3.56008,3.560109508,sweep_results.md
+hex_in_oct,19,attempted,drop-one (night sweep),Jonathan Viquerat,,,night_harvest/do0_*
+hex_in_oct,20,tie-documented,drop-one (night sweep); harvest,Jonathan Viquerat,3.72606,3.726081992,night_harvest/do0_* | sweep_results.md
+hex_in_oct,21,tie-documented,drop-one (night sweep); harvest,Bhavithran Ananthan,3.81013,3.810154534,night_harvest/do0_* | sweep_results.md
+hex_in_oct,22,tie-documented,harvest,Thomas Greenleaf,3.91915,3.919206460,sweep_results.md
+hex_in_pen,3,tie-documented,search (blitz-1),Ethan Riddle,2.74282,2.742825893,blitz_final.txt | blitz_targets.txt
+hex_in_pen,4,beaten-candidate,search (blitz-1),Jonathan Viquerat,3.01522,3.015218981,blitz_final.txt | blitz_targets.txt
+hex_in_pen,5,beaten-claimed,search; search (blitz-1),Jonathan Viquerat,3.21973,3.219728441230089,blitz_final.txt | blitz_targets.txt | ledger: standing
+hex_in_pen,6,tie-documented,drop-one (night sweep); harvest; search (blitz-2),Jonathan Viquerat,3.54952,3.549532435,blitz2_targets.txt (aggregate: 49 ties) | night_harvest/do0_* | sweep_results.md
+hex_in_pen,7,tie-documented,drop-one (night sweep); harvest; search (blitz-2),Jonathan Viquerat,3.79749,3.797494114,blitz2_targets.txt (aggregate: 49 ties) | night_harvest/do0_* | sweep_results.md
+hex_in_pen,8,tie-documented,drop-one (night sweep); harvest; search (blitz-2); search (night BH),Jonathan Viquerat,4.14917,4.149240062,blitz2_targets.txt (aggregate: 49 ties) | night_harvest/bh_* | night_harvest/do0_* | sweep_results.md
+hex_in_pen,9,tie-documented,drop-one (night sweep); harvest; search (blitz-3),Jonathan Viquerat,4.34314,4.343145123,blitz3_targets.txt (aggregate: 0/69 improvements) | night_harvest/do0_* | sweep_results.md
+hex_in_pen,10,tie-documented,drop-one (night sweep); harvest; search (blitz-3),Jonathan Viquerat,4.5581,4.558106969,blitz3_targets.txt (aggregate: 0/69 improvements) | night_harvest/do0_* | sweep_results.md
+hex_in_pen,11,tie-documented,drop-one (night sweep); harvest; search (blitz-3),Bhavithran Ananthan,4.71959,4.719595380,blitz3_targets.txt (aggregate: 0/69 improvements) | night_harvest/do0_* | sweep_results.md
+hex_in_pen,12,tie-documented,drop-one (night sweep); harvest; search (blitz-3),Jonathan Viquerat,4.9185,4.918500225,blitz3_targets.txt (aggregate: 0/69 improvements) | night_harvest/do0_* | sweep_results.md
+hex_in_pen,13,tie-documented,drop-one (night sweep); harvest,Bhavithran Ananthan,5.10107,5.101077535,night_harvest/do0_* | sweep_results.md
+hex_in_pen,14,tie-documented,drop-one (night sweep); harvest,Jake Loyd,5.29198,5.292070328,night_harvest/do0_* | sweep_results.md
+hex_in_pen,15,tie-documented,drop-one (night sweep); harvest,Jake Loyd,5.41337,5.413392121,night_harvest/do0_* | sweep_results.md
+hex_in_pen,16,tie-documented,drop-one (night sweep); harvest,Jake Loyd,5.61409,5.614388800,night_harvest/do0_* | sweep_results.md
+hex_in_pen,17,tie-documented,drop-one (night sweep); harvest,Jake Loyd,5.82103,5.821353626,night_harvest/do0_* | sweep_results.md
+hex_in_pen,18,tie-documented,drop-one (night sweep); harvest,Jonathan Viquerat,5.94471,5.944819924,night_harvest/do0_* | sweep_results.md
+hex_in_pen,19,tie-documented,drop-one (night sweep); harvest,Jonathan Viquerat,6.10977,6.109899105,night_harvest/do0_* | sweep_results.md
+hex_in_pen,20,tie-documented,drop-one (night sweep); harvest,Jake Loyd,6.24667,6.246996119,night_harvest/do0_* | sweep_results.md
+hex_in_pen,21,tie-documented,drop-one (night sweep); harvest; search (night BH),Jonathan Viquerat,6.39222,6.392228700,night_harvest/bh_* | night_harvest/do0_* | sweep_results.md
+hex_in_pen,22,tie-documented,drop-one (night sweep); harvest,Bhavithran Ananthan,6.53472,6.534725574,night_harvest/do0_* | sweep_results.md
+hex_in_pen,23,tie-documented,drop-one (night sweep); harvest,Jake Loyd,6.66271,6.662742960,night_harvest/do0_* | sweep_results.md
+hex_in_pen,24,tie-documented,drop-one (night sweep); harvest,Jake Loyd,6.77466,6.774943924,night_harvest/do0_* | sweep_results.md
+hex_in_pen,25,tie-documented,drop-one (night sweep); harvest; search (night BH),Jonathan Viquerat,6.891,6.890990032,night_harvest/bh_* | night_harvest/do0_* | sweep_results.md
+hex_in_pen,26,beaten-claimed,drop-one (night sweep); harvest; search (night BH),Bhavithran Ananthan,7.04758,7.047340522162662,ledger: standing | night_harvest/bh_* | night_harvest/do0_* | sweep_results.md
+hex_in_pen,27,beaten-claimed,drop-one (night sweep); harvest,Bhavithran Ananthan,7.15354,7.153071449490314,ledger: standing | night_harvest/do0_* | sweep_results.md
+hex_in_pen,28,tie-documented,drop-one (night sweep); harvest,Bhavithran Ananthan,7.24834,7.248391586,night_harvest/do0_* | sweep_results.md
+hex_in_pen,29,tie-documented,drop-one (night sweep); harvest,Bhavithran Ananthan,7.37905,7.379042906,night_harvest/do0_* | sweep_results.md
+hex_in_pen,30,beaten-claimed,harvest,Mohamed Metwalli,7.46147,7.459853596877675,ledger: standing | sweep_results.md
+hex_in_pen,31,tie-documented,drop-one (night sweep); harvest,Bhavithran Ananthan,7.63264,7.632832603,night_harvest/do0_* | sweep_results.md
+hex_in_pen,32,beaten-claimed,harvest,Bhavithran Ananthan,7.76651,7.766495222005064,ledger: re-taken by Bhavithran Ananthan (July 2026) | sweep_results.md
+hex_in_squ,3,tie-documented,search (blitz-1),Maurizio Morandi,3.491,3.491958434,blitz_final.txt | blitz_targets.txt
+hex_in_squ,4,tie-documented,search (blitz-1),Maurizio Morandi,3.725,3.725002597,blitz_final.txt | blitz_targets.txt
+hex_in_squ,5,tie-documented,search (blitz-1),Maurizio Morandi,4.437,4.437822179,blitz_final.txt | blitz_targets.txt
+hex_in_squ,9,attempted,drop-one (night sweep),Maurizio Morandi,,,night_harvest/do0_*
+hex_in_squ,10,tie-documented,drop-one (night sweep); harvest; search (blitz-3),Jonathan Viquerat,6.10469,6.104758988,blitz3_targets.txt (aggregate: 0/69 improvements) | night_harvest/do0_* | sweep_results.md
+hex_in_squ,11,tie-documented,harvest; search (blitz-3),Maksymilian Jankowski,6.33218,6.332259725,blitz3_targets.txt (aggregate: 0/69 improvements) | sweep_results.md
+hex_in_squ,12,attempted,drop-one (night sweep),Maurizio Morandi,,,night_harvest/do0_*
+hex_in_squ,13,tie-documented,harvest,Timo Berthold et al,6.75549,6.755496803,sweep_results.md
+hex_in_squ,14,attempted,drop-one (night sweep),Trivial,,,night_harvest/do0_*
+hex_in_squ,15,tie-documented,harvest,Maksymilian Jankowski,6.96367,6.963673071,sweep_results.md
+hex_in_squ,16,attempted,drop-one (night sweep),Maurizio Morandi,,,night_harvest/do0_*
+hex_in_squ,17,tie-documented,harvest,Maksymilian Jankowski,7.60383,7.603944207,sweep_results.md
+hex_in_squ,20,attempted,drop-one (night sweep),Maurizio Morandi,,,night_harvest/do0_*
+hex_in_squ,21,tie-documented,drop-one (night sweep); harvest,Jonathan Viquerat,8.381,8.381562920,night_harvest/do0_* | sweep_results.md
+hex_in_squ,22,tie-documented,harvest,Jonathan Viquerat,8.568,8.568493084,sweep_results.md
+hex_in_squ,23,attempted,drop-one (night sweep),Jonathan Viquerat,,,night_harvest/do0_*
+hex_in_squ,24,tie-documented,harvest,Jonathan Viquerat,8.795,8.795460783,sweep_results.md
+hex_in_squ,25,attempted,drop-one (night sweep),Jonathan Viquerat,,,night_harvest/do0_*
+hex_in_squ,26,tie-documented,drop-one (night sweep); harvest,Bhavithran Ananthan,9.22085,9.220929301,night_harvest/do0_* | sweep_results.md
+hex_in_squ,27,tie-documented,harvest,Thomas Greenleaf,9.27734,9.277362310,sweep_results.md
+hex_in_tri,7,no-improvement,search (blitz-2),Trivial,8.0,,blitz2_targets.txt (aggregate: 49 ties)
+hex_in_tri,9,no-improvement,search (blitz-3),Bhavithran Ananthan,8.64494,,blitz3_targets.txt (aggregate: 0/69 improvements)
+hex_in_tri,11,no-improvement,search (blitz-3),Jonathan Viquerat,9.54823,,blitz3_targets.txt (aggregate: 0/69 improvements)
+hex_in_tri,12,no-improvement,search (blitz-3),Bhavithran Ananthan,9.96429,,blitz3_targets.txt (aggregate: 0/69 improvements)
+oct_in_hex,3,tie-documented,search (blitz-1),Mohamed Metwalli,2.88958,2.889628768,blitz_final.txt | blitz_targets.txt
+oct_in_hex,4,tie-documented,search (blitz-1),Mohamed Metwalli,3.27809,3.278145226,blitz_final.txt | blitz_targets.txt
+oct_in_hex,5,tie-documented,search (blitz-1),Jonathan Viquerat,3.71848,3.718485364,blitz_final.txt | blitz_targets.txt
+oct_in_hex,6,beaten-claimed,drop-one (night sweep); harvest; search (blitz-2),Mohamed Metwalli,3.9496,3.947306302388469,blitz2_targets.txt (aggregate: 49 ties) | ledger: standing | night_harvest/do0_* | sweep_results.md
+oct_in_hex,7,tie-documented,drop-one (night sweep); harvest; search (blitz-2),Jonathan Viquerat,3.97716,3.977164636,blitz2_targets.txt (aggregate: 49 ties) | night_harvest/do0_* | sweep_results.md
+oct_in_hex,8,tie-documented,drop-one (night sweep); harvest; search (blitz-2),Jonathan Viquerat,4.56653,4.566539504,blitz2_targets.txt (aggregate: 49 ties) | night_harvest/do0_* | sweep_results.md
+oct_in_hex,9,tie-documented,drop-one (night sweep); harvest; search (blitz-3),Jonathan Viquerat,4.93304,4.933050877,blitz3_targets.txt (aggregate: 0/69 improvements) | night_harvest/do0_* | sweep_results.md
+oct_in_hex,10,tie-documented,drop-one (night sweep); harvest; search (blitz-3),Jonathan Viquerat,5.06929,5.069290642,blitz3_targets.txt (aggregate: 0/69 improvements) | night_harvest/do0_* | sweep_results.md
+oct_in_hex,11,tie-documented,drop-one (night sweep); harvest; search (blitz-3); search (night BH),Bhavithran Ananthan,5.34798,5.348013115,blitz3_targets.txt (aggregate: 0/69 improvements) | night_harvest/bh_* | night_harvest/do0_* | sweep_results.md
+oct_in_hex,12,tie-documented,drop-one (night sweep); harvest; search (blitz-3),Jonathan Viquerat,5.38669,5.386697488,blitz3_targets.txt (aggregate: 0/69 improvements) | night_harvest/do0_* | sweep_results.md
+oct_in_hex,13,tie-documented,drop-one (night sweep); harvest,Jonathan Viquerat,5.7547,5.754703337,night_harvest/do0_* | sweep_results.md
+oct_in_hex,14,tie-documented,drop-one (night sweep); harvest,Jonathan Viquerat,5.77752,5.777523024,night_harvest/do0_* | sweep_results.md
+oct_in_hex,15,tie-documented,drop-one (night sweep); harvest,Bhavithran Ananthan,6.13744,6.137501856,night_harvest/do0_* | sweep_results.md
+oct_in_hex,16,tie-documented,drop-one (night sweep); harvest,Jonathan Viquerat,6.21438,6.214387851,night_harvest/do0_* | sweep_results.md
+oct_in_hex,17,tie-documented,drop-one (night sweep); harvest,Jonathan Viquerat,6.35725,6.357269013,night_harvest/do0_* | sweep_results.md
+oct_in_hex,18,tie-documented,drop-one (night sweep); harvest; search (night BH),Bhavithran Ananthan,6.43029,6.430292679,CAMPAIGN.md: tie +4.5e-6 above Ananthan floor | night_harvest/bh_* | night_harvest/do0_* | sweep_results.md
+oct_in_hex,19,tie-documented,drop-one (night sweep); harvest,Bhavithran Ananthan,6.44696,6.446965538,night_harvest/do0_* | sweep_results.md
+oct_in_hex,20,beaten-claimed,harvest,Bhavithran Ananthan,6.99466,6.994504805050101,ledger: re-taken by Leo Strijbos (August 2026) | sweep_results.md
+oct_in_oct,3,tie-documented,search (blitz-1),Ignacio Vallejo,2.17157,2.171572876,blitz_final.txt | blitz_targets.txt
+oct_in_oct,4,tie-documented,search (blitz-1),Ignacio Vallejo,2.38895,2.388955168,blitz_final.txt | blitz_targets.txt
+oct_in_oct,5,tie-documented,search (blitz-1),Ignacio Vallejo,2.7071,2.707106782,blitz_final.txt | blitz_targets.txt
+oct_in_oct,6,no-improvement,search (blitz-2),Nicolas Campailla,2.98894,,blitz2_targets.txt (aggregate: 49 ties)
+oct_in_oct,7,no-improvement,search (blitz-2),Trivial,3.0,,blitz2_targets.txt (aggregate: 49 ties)
+oct_in_oct,8,no-improvement,search (blitz-2),Grant Mowry,3.27524,,blitz2_targets.txt (aggregate: 49 ties)
+oct_in_oct,11,no-improvement,search (blitz-3),Timo Berthold et al,3.93256,,blitz3_targets.txt (aggregate: 0/69 improvements)
+oct_in_oct,22,attempted,search (night BH),Timo Berthold et al,,,night_harvest/bh_*
+oct_in_oct,24,tie-documented,search (night BH),Timo Berthold et al,,,CAMPAIGN.md: tie +8.4e-6 above Ananthan floor | night_harvest/bh_*
+oct_in_oct,29,attempted,search (night BH),Ignacio Vallejo,,,night_harvest/bh_*
+oct_in_pen,3,tie-documented,search (blitz-1),Jonathan Viquerat,3.74412,3.744125628,blitz_final.txt | blitz_targets.txt
+oct_in_pen,4,beaten-candidate,search (blitz-1),Jonathan Viquerat,4.10126,4.101259677,blitz_final.txt | blitz_targets.txt
+oct_in_pen,5,tie-documented,search (blitz-1),Jonathan Viquerat,4.333,4.333003743,blitz_final.txt | blitz_targets.txt
+oct_in_pen,6,tie-documented,drop-one (night sweep); harvest; search (blitz-2),Jonathan Viquerat,4.77007,4.770075575,blitz2_targets.txt (aggregate: 49 ties) | night_harvest/do0_* | sweep_results.md
+oct_in_pen,7,tie-documented,drop-one (night sweep); harvest; search (blitz-2),Jonathan Viquerat,5.25544,5.255442967,blitz2_targets.txt (aggregate: 49 ties) | night_harvest/do0_* | sweep_results.md
+oct_in_pen,8,tie-documented,drop-one (night sweep); harvest; search (blitz-2),Jonathan Viquerat,5.61662,5.616624671,blitz2_targets.txt (aggregate: 49 ties) | night_harvest/do0_* | sweep_results.md
+oct_in_pen,9,tie-documented,drop-one (night sweep); harvest; search (blitz-3),Jonathan Viquerat,5.9658,5.965808630,blitz3_targets.txt (aggregate: 0/69 improvements) | night_harvest/do0_* | sweep_results.md
+oct_in_pen,10,tie-documented,drop-one (night sweep); harvest; search (blitz-3),Jonathan Viquerat,6.28146,6.281468856,blitz3_targets.txt (aggregate: 0/69 improvements) | night_harvest/do0_* | sweep_results.md
+oct_in_pen,11,tie-documented,drop-one (night sweep); harvest; search (blitz-3),Jonathan Viquerat,6.46576,6.465769876,blitz3_targets.txt (aggregate: 0/69 improvements) | night_harvest/do0_* | sweep_results.md
+oct_in_pen,12,tie-documented,drop-one (night sweep); harvest; search (blitz-3),Jonathan Viquerat,6.71763,6.717637144,blitz3_targets.txt (aggregate: 0/69 improvements) | night_harvest/do0_* | sweep_results.md
+oct_in_pen,13,tie-documented,drop-one (night sweep); harvest,Jonathan Viquerat,6.97062,6.970622744,night_harvest/do0_* | sweep_results.md
+oct_in_pen,14,tie-documented,harvest,Jonathan Viquerat,7.16083,7.160833005,sweep_results.md
+oct_in_pen,16,tie-documented,drop-one (night sweep); harvest,Bhavithran Ananthan,7.61505,7.615183571,night_harvest/do0_* | sweep_results.md
+oct_in_pen,17,tie-documented,drop-one (night sweep); harvest,Jonathan Viquerat,7.9142,7.914219889,night_harvest/do0_* | sweep_results.md
+oct_in_pen,18,tie-documented,drop-one (night sweep); harvest,Bhavithran Ananthan,8.12567,8.125769538,night_harvest/do0_* | sweep_results.md
+oct_in_pen,19,tie-documented,drop-one (night sweep); harvest,Jonathan Viquerat,8.34358,8.343583056,night_harvest/do0_* | sweep_results.md
+oct_in_pen,20,tie-documented,harvest,Bhavithran Ananthan,8.54202,8.542026426,sweep_results.md
+oct_in_squ,5,tie-documented,search (blitz-1),Jonathan Viquerat,5.82842,5.828427125,blitz_final.txt | blitz_targets.txt
+oct_in_squ,10,attempted,drop-one (night sweep),Jonathan Viquerat,,,night_harvest/do0_*
+oct_in_squ,11,tie-documented,harvest; search (blitz-3),Jonathan Viquerat,8.57596,8.575974028,blitz3_targets.txt (aggregate: 0/69 improvements) | sweep_results.md
+oct_in_squ,12,attempted,drop-one (night sweep),Jonathan Viquerat,,,night_harvest/do0_*
+oct_in_squ,13,tie-documented,harvest,Jonathan Viquerat,9.19909,9.199281634,sweep_results.md
+oct_in_squ,14,attempted,drop-one (night sweep),Jonathan Viquerat,,,night_harvest/do0_*
+oct_in_squ,15,no-improvement,drop-one (night sweep); search (plateau),Jonathan Viquerat,,,CAMPAIGN.md: 4+4sqrt2 plateau; f32 sightings were violations | night_harvest/do0_*
+oct_in_squ,16,attempted,drop-one (night sweep),Jonathan Viquerat,,,night_harvest/do0_*
+oct_in_squ,17,tie-documented,harvest,Jonathan Viquerat,10.44973,10.449747476,sweep_results.md
+oct_in_squ,18,attempted,drop-one (night sweep),Jonathan Viquerat,,,night_harvest/do0_*
+oct_in_squ,19,tie-documented,harvest,Haowei Lin,10.9662,10.966203782,sweep_results.md
+oct_in_tri,3,tie-documented,search (blitz-1),Jonathan Viquerat,6.83693,6.83693507,blitz_final.txt | blitz_targets.txt
+oct_in_tri,4,tie-documented,search (blitz-1),Jonathan Viquerat,8.65211,8.652115477,blitz_final.txt | blitz_targets.txt
+oct_in_tri,5,tie-documented,search (blitz-1),Jonathan Viquerat,9.28498,9.28499028,blitz_final.txt | blitz_targets.txt
+oct_in_tri,6,tie-documented,drop-one (night sweep); harvest; search (blitz-2),Jonathan Viquerat,9.31576,9.315772879,blitz2_targets.txt (aggregate: 49 ties) | night_harvest/do0_* | sweep_results.md
+oct_in_tri,7,tie-documented,drop-one (night sweep); harvest; search (blitz-2),Jonathan Viquerat,11.06632,11.066329034,blitz2_targets.txt (aggregate: 49 ties) | night_harvest/do0_* | sweep_results.md
+oct_in_tri,8,tie-documented,harvest; search (blitz-2),Jonathan Viquerat,11.51025,11.510257043,blitz2_targets.txt (aggregate: 49 ties) | sweep_results.md
+oct_in_tri,9,attempted,drop-one (night sweep),Trivial,,,night_harvest/do0_*
+oct_in_tri,10,tie-documented,drop-one (night sweep); harvest; search (blitz-3),Jonathan Viquerat,11.80642,11.806431656,blitz3_targets.txt (aggregate: 0/69 improvements) | night_harvest/do0_* | sweep_results.md
+oct_in_tri,11,tie-documented,drop-one (night sweep); harvest; search (blitz-3),Jonathan Viquerat,13.24689,13.246899723,blitz3_targets.txt (aggregate: 0/69 improvements) | night_harvest/do0_* | sweep_results.md
+oct_in_tri,12,tie-documented,drop-one (night sweep); harvest; search (blitz-3),Jonathan Viquerat,13.62033,13.620330000,blitz3_targets.txt (aggregate: 0/69 improvements) | night_harvest/do0_* | sweep_results.md
+oct_in_tri,13,tie-documented,drop-one (night sweep); harvest,Jonathan Viquerat,14.04225,14.042264934,night_harvest/do0_* | sweep_results.md
+oct_in_tri,14,beaten-claimed,drop-one (night sweep); harvest,Jonathan Viquerat,14.24006,14.239214111099999,ledger: standing | night_harvest/do0_* | sweep_results.md
+oct_in_tri,15,tie-documented,drop-one (night sweep); harvest,Jonathan Viquerat,14.28169,14.281701441,night_harvest/do0_* | sweep_results.md
+oct_in_tri,16,tie-documented,drop-one (night sweep); harvest,Jonathan Viquerat,15.66136,15.661373335,night_harvest/do0_* | sweep_results.md
+oct_in_tri,17,tie-documented,drop-one (night sweep); harvest,Bhavithran Ananthan,16.06191,16.061911422,night_harvest/do0_* | sweep_results.md
+oct_in_tri,18,beaten-claimed,drop-one (night sweep); harvest,Bhavithran Ananthan,16.41137,16.409792942504033,ledger: standing | night_harvest/do0_* | sweep_results.md
+oct_in_tri,19,tie-documented,drop-one (night sweep); harvest,Timo Berthold et al,16.54447,16.544510947,night_harvest/do0_* | sweep_results.md
+oct_in_tri,20,tie-documented,drop-one (night sweep); harvest,Bhavithran Ananthan,16.74197,16.741961314,night_harvest/do0_* | sweep_results.md
+oct_in_tri,21,tie-documented,drop-one (night sweep); harvest,Bhavithran Ananthan,16.78582,16.785825430,night_harvest/do0_* | sweep_results.md
+oct_in_tri,22,tie-documented,harvest,Bhavithran Ananthan,17.96238,17.962384687,sweep_results.md
+pen_in_hex,4,tie-documented,search (blitz-1),Ethan Riddle,1.97666,1.976689305,blitz_final.txt | blitz_targets.txt
+pen_in_hex,5,tie-documented,search (blitz-1),Nicolas Campailla,2.21822,2.218220346,blitz_final.txt | blitz_targets.txt
+pen_in_hex,6,beaten-claimed,drop-one (night sweep); harvest; search; search (blitz-2),Nicolas Campailla,2.32294,2.322939295665665,blitz2_penhex6.json | blitz2_targets.txt (aggregate: 49 ties) | ledger: withdrawn — not a record (page was stale; the incumbent's actual value was not beaten) | night_harvest/do0_* | sweep_results.md
+pen_in_hex,7,tie-documented,drop-one (night sweep); harvest; search (blitz-2),Nicolas Campailla,2.36527,2.365272267,blitz2_targets.txt (aggregate: 49 ties) | night_harvest/do0_* | sweep_results.md
+pen_in_hex,8,beaten-candidate,drop-one (night sweep); harvest; search (blitz-2),Jonathan Viquerat,2.71923,2.719228668,"blitz2_penhex8.json (sniped while staged, never submitted) | blitz2_targets.txt (aggregate: 49 ties) | night_harvest/do0_* | sweep_results.md"
+pen_in_hex,9,tie-documented,drop-one (night sweep); harvest; search (blitz-3),Nicolas Campailla,2.86967,2.869675167,blitz3_targets.txt (aggregate: 0/69 improvements) | night_harvest/do0_* | sweep_results.md
+pen_in_hex,10,tie-documented,drop-one (night sweep); harvest; search (blitz-3),Jonathan Viquerat,2.93665,2.936643619,blitz3_targets.txt (aggregate: 0/69 improvements) | night_harvest/do0_* | sweep_results.md
+pen_in_hex,11,tie-documented,drop-one (night sweep); harvest; search (blitz-3),Jonathan Viquerat,3.16125,3.161270959,blitz3_targets.txt (aggregate: 0/69 improvements) | night_harvest/do0_* | sweep_results.md
+pen_in_hex,12,tie-documented,drop-one (night sweep); harvest; search (blitz-3),Jake Loyd,3.21458,3.214582364,blitz3_targets.txt (aggregate: 0/69 improvements) | night_harvest/do0_* | sweep_results.md
+pen_in_hex,13,tie-documented,drop-one (night sweep); harvest,Jonathan Viquerat,3.40911,3.409123536,night_harvest/do0_* | sweep_results.md
+pen_in_hex,14,tie-documented,drop-one (night sweep); harvest,Jonathan Viquerat,3.46643,3.466438204,night_harvest/do0_* | sweep_results.md
+pen_in_hex,15,tie-documented,drop-one (night sweep); harvest,Jake Loyd,3.63499,3.635035943,night_harvest/do0_* | sweep_results.md
+pen_in_hex,16,tie-documented,drop-one (night sweep); harvest,Jonathan Viquerat,3.69896,3.698964814,night_harvest/do0_* | sweep_results.md
+pen_in_hex,17,tie-documented,drop-one (night sweep); harvest,Jonathan Viquerat,3.75774,3.757736353,night_harvest/do0_* | sweep_results.md
+pen_in_hex,18,tie-documented,drop-one (night sweep); harvest,Jake Loyd,3.84479,3.844888498,night_harvest/do0_* | sweep_results.md
+pen_in_hex,19,tie-documented,drop-one (night sweep); harvest,Bhavithran Ananthan,3.88272,3.882712405,night_harvest/do0_* | sweep_results.md
+pen_in_hex,20,tie-documented,drop-one (night sweep); harvest,Jake Loyd,4.14048,4.140541708,night_harvest/do0_* | sweep_results.md
+pen_in_hex,21,tie-documented,drop-one (night sweep); harvest,Jake Loyd,4.24003,4.240170003,night_harvest/do0_* | sweep_results.md
+pen_in_hex,22,tie-documented,drop-one (night sweep); harvest,Jake Loyd,4.32443,4.324580063,night_harvest/do0_* | sweep_results.md
+pen_in_hex,23,tie-documented,drop-one (night sweep); harvest,Jake Loyd,4.39703,4.397267989,night_harvest/do0_* | sweep_results.md
+pen_in_hex,24,tie-documented,drop-one (night sweep); harvest,Jake Loyd,4.4636,4.463847303,night_harvest/do0_* | sweep_results.md
+pen_in_hex,25,tie-documented,drop-one (night sweep); harvest,Jake Loyd,4.57861,4.579378959,night_harvest/do0_* | sweep_results.md
+pen_in_hex,26,beaten-claimed,drop-one (night sweep); harvest,Bhavithran Ananthan,4.66044,4.660313003943706,ledger: standing | night_harvest/do0_* | sweep_results.md
+pen_in_hex,27,beaten-claimed,harvest,Bhavithran Ananthan,4.718,4.717566100821409,ledger: standing | sweep_results.md
+pen_in_hex,28,beaten-claimed,drop-one (night sweep); harvest,Bhavithran Ananthan,4.8441,4.843997128569802,ledger: re-taken by Bhavithran Ananthan (July 2026) | night_harvest/do0_* | sweep_results.md
+pen_in_hex,29,beaten-claimed,drop-one (night sweep); harvest,Mohamed Metwalli,4.91275,4.910037168096236,ledger: standing | night_harvest/do0_* | sweep_results.md
+pen_in_hex,30,beaten-claimed,harvest,Mohamed Metwalli,4.96723,4.964065503257694,ledger: standing | sweep_results.md
+pen_in_hex,31,beaten-claimed,harvest,Bhavithran Ananthan,5.09328,5.093187066228374,ledger: re-taken by Bhavithran Ananthan (July 2026) | sweep_results.md
+pen_in_oct,3,tie-documented,search (blitz-1),Nicolas Campailla,1.28954,1.289544387,blitz_final.txt | blitz_targets.txt
+pen_in_oct,5,tie-documented,search (blitz-1),Nicolas Campailla,1.61756,1.617560331,blitz_final.txt | blitz_targets.txt
+pen_in_oct,6,tie-documented,drop-one (night sweep); harvest; search (blitz-2),Nicolas Campailla,1.78003,1.780038091,blitz2_targets.txt (aggregate: 49 ties) | night_harvest/do0_* | sweep_results.md
+pen_in_oct,7,tie-documented,drop-one (night sweep); harvest; search (blitz-2),Timo Berthold et al,1.82343,1.823444730,blitz2_targets.txt (aggregate: 49 ties) | night_harvest/do0_* | sweep_results.md
+pen_in_oct,8,tie-documented,drop-one (night sweep); harvest; search (blitz-2),Nicolas Campailla,1.95989,1.959891537,blitz2_targets.txt (aggregate: 49 ties) | night_harvest/do0_* | sweep_results.md
+pen_in_oct,9,tie-documented,drop-one (night sweep); harvest; search (blitz-3),Nicolas Campailla,2.09517,2.095179326,blitz3_targets.txt (aggregate: 0/69 improvements) | night_harvest/do0_* | sweep_results.md
+pen_in_oct,10,tie-documented,drop-one (night sweep); harvest; search (blitz-3),Timo Berthold et al,2.21135,2.211359188,blitz3_targets.txt (aggregate: 0/69 improvements) | night_harvest/do0_* | sweep_results.md
+pen_in_oct,11,tie-documented,drop-one (night sweep); harvest; search (blitz-3),Timo Berthold et al,2.33111,2.331118210,blitz3_targets.txt (aggregate: 0/69 improvements) | night_harvest/do0_* | sweep_results.md
+pen_in_oct,12,tie-documented,drop-one (night sweep); harvest; search (blitz-3),Timo Berthold et al,2.39327,2.393401132,blitz3_targets.txt (aggregate: 0/69 improvements) | night_harvest/do0_* | sweep_results.md
+pen_in_oct,13,tie-documented,drop-one (night sweep); harvest,Jake Loyd,2.49776,2.497769986,night_harvest/do0_* | sweep_results.md
+pen_in_oct,14,tie-documented,drop-one (night sweep); harvest,Jake Loyd,2.56564,2.565673739,night_harvest/do0_* | sweep_results.md
+pen_in_oct,15,tie-documented,drop-one (night sweep); harvest,Timo Berthold et al,2.68123,2.681279607,night_harvest/do0_* | sweep_results.md
+pen_in_oct,16,tie-documented,drop-one (night sweep); harvest,Jake Loyd,2.75249,2.752533588,night_harvest/do0_* | sweep_results.md
+pen_in_oct,17,tie-documented,drop-one (night sweep); harvest,Jake Loyd,2.81043,2.810435549,night_harvest/do0_* | sweep_results.md
+pen_in_oct,18,tie-documented,drop-one (night sweep); harvest,Jake Loyd,2.89321,2.893228807,night_harvest/do0_* | sweep_results.md
+pen_in_oct,19,tie-documented,drop-one (night sweep); harvest,Jake Loyd,2.95527,2.955286910,night_harvest/do0_* | sweep_results.md
+pen_in_oct,20,tie-documented,drop-one (night sweep); harvest,Jake Loyd,3.04679,3.046908745,night_harvest/do0_* | sweep_results.md
+pen_in_oct,21,tie-documented,drop-one (night sweep); harvest,Jake Loyd,3.11874,3.118763133,night_harvest/do0_* | sweep_results.md
+pen_in_oct,22,tie-documented,drop-one (night sweep); harvest,Jake Loyd,3.19144,3.191451274,night_harvest/do0_* | sweep_results.md
+pen_in_oct,23,tie-documented,drop-one (night sweep); harvest,Jake Loyd,3.25129,3.251421359,night_harvest/do0_* | sweep_results.md
+pen_in_oct,24,tie-documented,drop-one (night sweep); harvest,Jake Loyd,3.28718,3.287209941,night_harvest/do0_* | sweep_results.md
+pen_in_oct,25,tie-documented,drop-one (night sweep); harvest,Jake Loyd,3.36617,3.366181382,night_harvest/do0_* | sweep_results.md
+pen_in_oct,26,tie-documented,drop-one (night sweep); harvest,Jake Loyd,3.42775,3.427766057,night_harvest/do0_* | sweep_results.md
+pen_in_oct,27,tie-documented,drop-one (night sweep); harvest,Bhavithran Ananthan,3.49945,3.499466847,night_harvest/do0_* | sweep_results.md
+pen_in_oct,28,beaten-claimed,drop-one (night sweep); harvest,Mohamed Metwalli,3.56685,3.565751008264712,"ledger: briefly listed during 26-batch processing, re-taken the same day — not captured in any archived scrape | night_harvest/do0_* | sweep_results.md"
+pen_in_oct,29,beaten-claimed,drop-one (night sweep); harvest,Bhavithran Ananthan,3.61924,3.618964005470293,ledger: re-taken by Bhavithran Ananthan (July 2026) | night_harvest/do0_* | sweep_results.md
+pen_in_oct,30,beaten-claimed,harvest,Bhavithran Ananthan,3.66702,3.666780445692500,ledger: standing | sweep_results.md
+pen_in_oct,31,beaten-claimed,harvest,Bhavithran Ananthan,3.74457,3.744162795016955,ledger: re-taken by Bhavithran Ananthan (July 2026) | sweep_results.md
+pen_in_pen,3,tie-documented,search (blitz-1),Jonathan Viquerat,2.23606,2.236067978,blitz_final.txt | blitz_targets.txt
+pen_in_pen,4,tie-documented,search (blitz-1),Jonathan Viquerat,2.44719,2.447213599,blitz_final.txt | blitz_targets.txt
+pen_in_pen,6,attempted,drop-one (night sweep),Trivial,,,night_harvest/do0_*
+pen_in_pen,7,tie-documented,drop-one (night sweep); harvest; search (blitz-2),Jonathan Viquerat,3.07866,3.078689328,blitz2_targets.txt (aggregate: 49 ties) | night_harvest/do0_* | sweep_results.md
+pen_in_pen,8,tie-documented,drop-one (night sweep); harvest; search (blitz-2),Jonathan Viquerat,3.33514,3.335174341,blitz2_targets.txt (aggregate: 49 ties) | night_harvest/do0_* | sweep_results.md
+pen_in_pen,9,tie-documented,drop-one (night sweep); harvest; search (blitz-3),Jonathan Viquerat,3.44956,3.449593472,blitz3_targets.txt (aggregate: 0/69 improvements) | night_harvest/do0_* | sweep_results.md
+pen_in_pen,10,tie-documented,drop-one (night sweep); harvest; search (blitz-3),Jonathan Viquerat,3.68324,3.683281578,blitz3_targets.txt (aggregate: 0/69 improvements) | night_harvest/do0_* | sweep_results.md
+pen_in_pen,11,tie-documented,drop-one (night sweep); harvest; search (blitz-3),Jonathan Viquerat,3.79704,3.797055655,blitz3_targets.txt (aggregate: 0/69 improvements) | night_harvest/do0_* | sweep_results.md
+pen_in_pen,12,tie-documented,drop-one (night sweep); harvest; search (blitz-3),Jonathan Viquerat,3.96926,3.969261018,blitz3_targets.txt (aggregate: 0/69 improvements) | night_harvest/do0_* | sweep_results.md
+pen_in_pen,13,tie-documented,drop-one (night sweep); harvest,Jonathan Viquerat,4.06523,4.065247586,night_harvest/do0_* | sweep_results.md
+pen_in_pen,14,tie-documented,harvest,Grant Mowry,4.21111,4.211163142,sweep_results.md
+pen_in_pen,15,attempted,drop-one (night sweep),Trivial,,,night_harvest/do0_*
+pen_in_pen,16,tie-documented,drop-one (night sweep); harvest,Jonathan Viquerat,4.41636,4.416374408,night_harvest/do0_* | sweep_results.md
+pen_in_pen,17,tie-documented,drop-one (night sweep); harvest,Timo Berthold et al,4.65543,4.655478113,night_harvest/do0_* | sweep_results.md
+pen_in_pen,18,tie-documented,drop-one (night sweep); harvest,Jonathan Viquerat,4.77541,4.775412645,night_harvest/do0_* | sweep_results.md
+pen_in_pen,19,tie-documented,drop-one (night sweep); harvest,Ian Watson,4.95269,4.952711274,night_harvest/do0_* | sweep_results.md
+pen_in_pen,20,tie-documented,drop-one (night sweep); harvest,Jake Loyd,5.03404,5.034048350,night_harvest/do0_* | sweep_results.md
+pen_in_pen,21,tie-documented,drop-one (night sweep); harvest,Jake Loyd,5.15638,5.156396594,night_harvest/do0_* | sweep_results.md
+pen_in_pen,22,tie-documented,drop-one (night sweep); harvest,Grant Mowry,5.26645,5.266474920,night_harvest/do0_* | sweep_results.md
+pen_in_pen,23,tie-documented,drop-one (night sweep); harvest,Jake Loyd,5.34696,5.347279465,night_harvest/do0_* | sweep_results.md
+pen_in_pen,24,tie-documented,drop-one (night sweep); harvest,Jake Loyd,5.49109,5.491128098,night_harvest/do0_* | sweep_results.md
+pen_in_pen,25,tie-documented,drop-one (night sweep); harvest,Jake Loyd,5.58099,5.581108979,night_harvest/do0_* | sweep_results.md
+pen_in_pen,26,tie-documented,harvest,Bhavithran Ananthan,5.67233,5.672373744,sweep_results.md
+pen_in_squ,3,beaten-candidate,search (blitz-1),Jonathan Viquerat,2.90812,2.908117286,blitz_final.txt | blitz_targets.txt
+pen_in_squ,4,tie-documented,search (blitz-1),Jonathan Viquerat,3.10252,3.102525012,blitz_final.txt | blitz_targets.txt
+pen_in_squ,5,tie-documented,search (blitz-1),Jonathan Viquerat,3.54903,3.549034758,blitz_final.txt | blitz_targets.txt
+pen_in_squ,6,tie-documented,drop-one (night sweep); harvest; search (blitz-2),Haowei Lin,3.88299,3.882991428,blitz2_targets.txt (aggregate: 49 ties) | night_harvest/do0_* | sweep_results.md
+pen_in_squ,7,tie-documented,drop-one (night sweep); harvest; search (blitz-2),Nicolas Campailla,4.18037,4.180370593,blitz2_targets.txt (aggregate: 49 ties) | night_harvest/do0_* | sweep_results.md
+pen_in_squ,8,beaten-claimed,drop-one (night sweep); harvest; search; search (blitz-2),Jonathan Viquerat,4.38191,4.381909606459235,blitz2_pensqu8.json | blitz2_targets.txt (aggregate: 49 ties) | ledger: standing | night_harvest/do0_* | sweep_results.md
+pen_in_squ,9,tie-documented,drop-one (night sweep); harvest; search (blitz-3),Jonathan Viquerat,4.60033,4.600341442,blitz3_targets.txt (aggregate: 0/69 improvements) | night_harvest/do0_* | sweep_results.md
+pen_in_squ,10,tie-documented,drop-one (night sweep); harvest; search (blitz-3),Jonathan Viquerat,4.90581,4.905825585,blitz3_targets.txt (aggregate: 0/69 improvements) | night_harvest/do0_* | sweep_results.md
+pen_in_squ,11,tie-documented,drop-one (night sweep); harvest; search (blitz-3),Haowei Lin,5.11556,5.115574683,blitz3_targets.txt (aggregate: 0/69 improvements) | night_harvest/do0_* | sweep_results.md
+pen_in_squ,12,tie-documented,drop-one (night sweep); harvest; search (blitz-3),Timo Berthold et al,5.23221,5.232227109,blitz3_targets.txt (aggregate: 0/69 improvements) | night_harvest/do0_* | sweep_results.md
+pen_in_squ,13,tie-documented,drop-one (night sweep); harvest,Jake Loyd,5.52102,5.521023193,night_harvest/do0_* | sweep_results.md
+pen_in_squ,14,tie-documented,drop-one (night sweep); harvest,Jake Loyd,5.69659,5.696593946,night_harvest/do0_* | sweep_results.md
+pen_in_squ,15,tie-documented,drop-one (night sweep); harvest,Haowei Lin,5.90119,5.901234122,night_harvest/do0_* | sweep_results.md
+pen_in_squ,16,tie-documented,drop-one (night sweep); harvest,Timo Berthold et al,6.06452,6.064599464,night_harvest/do0_* | sweep_results.md
+pen_in_squ,17,tie-documented,drop-one (night sweep); harvest,Jonathan Viquerat,6.23761,6.237662615,night_harvest/do0_* | sweep_results.md
+pen_in_squ,18,tie-documented,drop-one (night sweep); harvest,Thomas Greenleaf,6.32566,6.325657095,night_harvest/do0_* | sweep_results.md
+pen_in_squ,19,tie-documented,drop-one (night sweep); harvest,Jake Loyd,6.55781,6.557812502,night_harvest/do0_* | sweep_results.md
+pen_in_squ,20,tie-documented,drop-one (night sweep); harvest,Haowei Lin,6.66135,6.661351037,night_harvest/do0_* | sweep_results.md
+pen_in_squ,21,tie-documented,drop-one (night sweep); harvest,Jake Loyd,6.85368,6.853740437,night_harvest/do0_* | sweep_results.md
+pen_in_squ,22,tie-documented,drop-one (night sweep); harvest,Haowei Lin,7.04445,7.044475980,night_harvest/do0_* | sweep_results.md
+pen_in_squ,23,tie-documented,drop-one (night sweep); harvest,Jake Loyd,7.20624,7.206439294,night_harvest/do0_* | sweep_results.md
+pen_in_squ,24,tie-documented,drop-one (night sweep); harvest,Jake Loyd,7.3369,7.336924831,night_harvest/do0_* | sweep_results.md
+pen_in_squ,25,tie-documented,harvest,Jake Loyd,7.4536,7.453618015,sweep_results.md
+pen_in_tri,3,tie-documented,search (blitz-1),Jonathan Viquerat,4.12164,4.121647332,blitz_final.txt | blitz_targets.txt
+pen_in_tri,4,tie-documented,search (blitz-1),Jonathan Viquerat,5.21983,5.219832804,blitz_final.txt | blitz_targets.txt
+pen_in_tri,5,tie-documented,search (blitz-1),Jonathan Viquerat,5.55809,5.558094019,blitz_final.txt | blitz_targets.txt
+pen_in_tri,6,no-improvement,search (blitz-2),Jonathan Viquerat,5.6354,,blitz2_targets.txt (aggregate: 49 ties)
+pen_in_tri,7,no-improvement,drop-one (night sweep); search (blitz-2),Jonathan Viquerat,6.50034,,blitz2_targets.txt (aggregate: 49 ties) | night_harvest/do0_*
+pen_in_tri,8,no-improvement,search (blitz-2),Jonathan Viquerat,6.81134,,blitz2_pentri8.json (live-gate reject: table moved) | blitz2_targets.txt (aggregate: 49 ties)
+pen_in_tri,9,no-improvement,search (blitz-3),Bhavithran Ananthan,7.08969,,blitz3_targets.txt (aggregate: 0/69 improvements)
+pen_in_tri,10,no-improvement,search (blitz-3),Bhavithran Ananthan,7.17235,,blitz3_targets.txt (aggregate: 0/69 improvements)
+pen_in_tri,11,no-improvement,search (blitz-3),Jonathan Viquerat,7.93748,,blitz3_targets.txt (aggregate: 0/69 improvements)
+pen_in_tri,12,no-improvement,search (blitz-3),Jonathan Viquerat,8.19117,,blitz3_targets.txt (aggregate: 0/69 improvements)
+pen_in_tri,26,beaten-claimed,harvest,Bhavithran Ananthan,11.45623,11.455492110823988,ledger: standing
+squ_in_hex,3,tie-documented,search (blitz-1),Maurizio Morandi,1.366,1.366025406,blitz_final.txt | blitz_targets.txt
+squ_in_hex,4,tie-documented,search (blitz-1),Maurizio Morandi,1.519,1.519671374,blitz_final.txt | blitz_targets.txt
+squ_in_hex,6,tie-documented,harvest; search (blitz-2),Maurizio Morandi,1.821,1.821902668,blitz2_targets.txt (aggregate: 49 ties) | sweep_results.md
+squ_in_hex,7,attempted,drop-one (night sweep),Maurizio Morandi,,,night_harvest/do0_*
+squ_in_hex,8,tie-documented,harvest; search (blitz-2),Ian Watson,2.15378,2.153836906,blitz2_targets.txt (aggregate: 49 ties) | sweep_results.md
+squ_in_hex,10,attempted,drop-one (night sweep),Trivial,,,night_harvest/do0_*
+squ_in_hex,11,tie-documented,harvest; search (blitz-3),Jonathan Viquerat,2.40944,2.409441257,blitz3_targets.txt (aggregate: 0/69 improvements) | sweep_results.md
+squ_in_hex,12,attempted,drop-one (night sweep),Maurizio Morandi,,,night_harvest/do0_*
+squ_in_hex,13,tie-documented,drop-one (night sweep); harvest,Maurizio Morandi,2.572,2.572640242,night_harvest/do0_* | sweep_results.md
+squ_in_hex,14,tie-documented,drop-one (night sweep); harvest,Jonathan Viquerat,2.62126,2.621275647,night_harvest/do0_* | sweep_results.md
+squ_in_hex,15,tie-documented,drop-one (night sweep); harvest,Grant Mowry,2.75364,2.753645896,night_harvest/do0_* | sweep_results.md
+squ_in_hex,16,tie-documented,drop-one (night sweep); harvest,Spencer Leach,2.82002,2.820093325,night_harvest/do0_* | sweep_results.md
+squ_in_hex,17,tie-documented,drop-one (night sweep); harvest,Jake Loyd,2.87264,2.872674629,night_harvest/do0_* | sweep_results.md
+squ_in_hex,18,tie-documented,drop-one (night sweep); harvest,Haowei Lin,2.92104,2.921260157,night_harvest/do0_* | sweep_results.md
+squ_in_hex,19,tie-documented,drop-one (night sweep); harvest,Haowei Lin,2.93508,2.935134744,night_harvest/do0_* | sweep_results.md
+squ_in_hex,20,tie-documented,harvest,Ian Watson,3.16123,3.161328781,sweep_results.md
+squ_in_hex,21,attempted,drop-one (night sweep),Spencer Leach,,,night_harvest/do0_*
+squ_in_hex,22,tie-documented,drop-one (night sweep); harvest,Jake Loyd,3.31432,3.314333781,night_harvest/do0_* | sweep_results.md
+squ_in_hex,23,tie-documented,drop-one (night sweep); harvest,Jake Loyd,3.36407,3.364145475,night_harvest/do0_* | sweep_results.md
+squ_in_hex,24,tie-documented,harvest,Thomas Greenleaf,3.40286,3.402850856,sweep_results.md
+squ_in_hex,25,attempted,drop-one (night sweep),Trivial,,,night_harvest/do0_*
+squ_in_hex,26,tie-documented,harvest,Jake Loyd,3.49276,3.493029197,sweep_results.md
+squ_in_hex,27,attempted,drop-one (night sweep),Erich Friedman,,,night_harvest/do0_*
+squ_in_hex,28,tie-documented,drop-one (night sweep); harvest,Jake Loyd,3.61979,3.619973504,night_harvest/do0_* | sweep_results.md
+squ_in_hex,29,tie-documented,drop-one (night sweep); harvest,Ian Watson,3.66437,3.664384040,night_harvest/do0_* | sweep_results.md
+squ_in_hex,30,beaten-claimed,harvest,Ian Watson,3.69554,3.695528789733827,ledger: standing | sweep_results.md
+squ_in_hex,31,tie-documented,drop-one (night sweep); harvest,Jake Loyd,3.78143,3.781509478,night_harvest/do0_* | sweep_results.md
+squ_in_hex,32,tie-documented,drop-one (night sweep); harvest,Jake Loyd,3.8414,3.841542651,night_harvest/do0_* | sweep_results.md
+squ_in_hex,33,tie-documented,drop-one (night sweep); harvest,Jake Loyd,3.86634,3.866352135,night_harvest/do0_* | sweep_results.md
+squ_in_hex,34,tie-documented,drop-one (night sweep); harvest,Jake Loyd,3.91853,3.918826694,night_harvest/do0_* | sweep_results.md
+squ_in_hex,35,tie-documented,drop-one (night sweep); harvest,Jake Loyd,3.98201,3.982183976,night_harvest/do0_* | sweep_results.md
+squ_in_hex,36,tie-documented,harvest,Jake Loyd,4.02042,4.020551138,sweep_results.md
+squ_in_hex,37,attempted,drop-one (night sweep),Trivial,,,night_harvest/do0_*
+squ_in_hex,38,tie-documented,drop-one (night sweep); harvest,Jake Loyd,4.18036,4.180464646,night_harvest/do0_* | sweep_results.md
+squ_in_hex,39,tie-documented,drop-one (night sweep); harvest,Jake Loyd,4.24512,4.245683496,night_harvest/do0_* | sweep_results.md
+squ_in_hex,40,beaten-claimed,harvest,Jake Loyd,4.30173,4.301713931484647,ledger: standing | sweep_results.md
+squ_in_oct,7,attempted,drop-one (night sweep),Maurizio Morandi,,,night_harvest/do0_*
+squ_in_oct,8,tie-documented,harvest; search (blitz-2),Grant Mowry,1.56962,1.569627976,blitz2_targets.txt (aggregate: 49 ties) | sweep_results.md
+squ_in_oct,9,attempted,drop-one (night sweep),Trivial,,,night_harvest/do0_*
+squ_in_oct,10,tie-documented,drop-one (night sweep); harvest; search (blitz-3),Timo Berthold et al,1.68171,1.681819285,blitz3_targets.txt (aggregate: 0/69 improvements) | night_harvest/do0_* | sweep_results.md
+squ_in_oct,11,tie-documented,harvest; search (blitz-3),Jonathan Viquerat,1.73152,1.731525245,blitz3_targets.txt (aggregate: 0/69 improvements) | sweep_results.md
+squ_in_oct,12,attempted,drop-one (night sweep),Maurizio Morandi,,,night_harvest/do0_*
+squ_in_oct,13,tie-documented,drop-one (night sweep); harvest,Grant Mowry,1.89674,1.896754173,night_harvest/do0_* | sweep_results.md
+squ_in_oct,14,tie-documented,drop-one (night sweep); harvest,Timo Berthold et al,1.98302,1.983057990,night_harvest/do0_* | sweep_results.md
+squ_in_oct,15,tie-documented,harvest,Jonathan Viquerat,2.03168,2.032396932,sweep_results.md
+squ_in_oct,16,no-improvement,search (plateau),Trivial,,,CAMPAIGN.md: 5sqrt2-5 plateau
+squ_in_oct,17,attempted,drop-one (night sweep),Trivial,,,night_harvest/do0_*
+squ_in_oct,18,tie-documented,drop-one (night sweep); harvest,Timo Berthold et al,2.16732,2.167410948,night_harvest/do0_* | sweep_results.md
+squ_in_oct,19,tie-documented,drop-one (night sweep); harvest,Jake Loyd,2.22435,2.224691959,night_harvest/do0_* | sweep_results.md
+squ_in_oct,20,tie-documented,harvest,Jake Loyd,2.28598,2.286537425,sweep_results.md
+squ_in_oct,21,attempted,drop-one (night sweep),Jake Loyd,,,night_harvest/do0_*
+squ_in_oct,22,tie-documented,drop-one (night sweep); harvest,Jake Loyd,2.41575,2.415775766,night_harvest/do0_* | sweep_results.md
+squ_in_oct,23,tie-documented,harvest,Jake Loyd,2.46879,2.468798661,sweep_results.md
+squ_in_oct,25,attempted,drop-one (night sweep),Jake Loyd,,,night_harvest/do0_*
+squ_in_oct,26,beaten-claimed,harvest,Jake Loyd,2.52711,2.527094992258591,ledger: standing | sweep_results.md
+squ_in_oct,27,tie-documented,drop-one (night sweep); harvest,Jake Loyd,2.58584,2.586571749,night_harvest/do0_* | sweep_results.md
+squ_in_oct,28,tie-documented,drop-one (night sweep); harvest,Jake Loyd,2.62788,2.627885806,night_harvest/do0_* | sweep_results.md
+squ_in_oct,29,tie-documented,harvest,Jake Loyd,2.70553,2.705614282,sweep_results.md
+squ_in_oct,30,attempted,drop-one (night sweep),Maurizio Morandi,,,night_harvest/do0_*
+squ_in_oct,31,beaten-claimed,harvest,Mohamed Metwalli,2.7857,2.784280735143800,ledger: re-taken by Aapo Lipponen (July 2026) | sweep_results.md
+squ_in_oct,32,beaten-claimed,drop-one (night sweep); harvest,Mohamed Metwalli,2.84222,2.839808692332037,ledger: standing | night_harvest/do0_* | sweep_results.md
+squ_in_oct,33,beaten-claimed,harvest,Mohamed Metwalli,2.8629,2.859036377433378,ledger: standing | sweep_results.md
+squ_in_oct,34,attempted,drop-one (night sweep),Mohamed Metwalli,,,night_harvest/do0_*
+squ_in_oct,35,beaten-claimed,drop-one (night sweep); harvest,Mohamed Metwalli,2.91052,2.906795194041193,ledger: re-taken by Aapo Lipponen (July 2026) | night_harvest/do0_* | sweep_results.md
+squ_in_oct,36,beaten-claimed,drop-one (night sweep); harvest; search; search (BH/GPU),Mohamed Metwalli,2.92919,2.928701551520834,ledger: standing | night_harvest/do0_* | results/*_bh_* | sweep_results.md
+squ_in_oct,37,beaten-candidate,drop-one (night sweep); harvest; search (BH/GPU),Mohamed Metwalli,2.92926,2.928996156,night_harvest/do0_* | results/*_bh_* | sweep_results.md
+squ_in_oct,38,beaten-claimed,harvest,Mohamed Metwalli,3.02321,3.021130178730576,ledger: re-taken by Luke Kaiser (August 2026) | sweep_results.md
+squ_in_oct,39,beaten-claimed,drop-one (night sweep); harvest,Mohamed Metwalli,3.08686,3.084443082033133,ledger: re-taken by Aapo Lipponen (July 2026) | night_harvest/do0_* | sweep_results.md
+squ_in_oct,40,beaten-claimed,harvest,Mohamed Metwalli,3.14545,3.142017576662691,ledger: re-taken by Aapo Lipponen (July 2026) | sweep_results.md
+squ_in_pen,3,no-improvement,search (blitz-2),David W. Cantrell,1.695,,blitz2_targets.txt (aggregate: 49 ties)
+squ_in_pen,4,no-improvement,search (blitz-2),Maurizio Morandi,1.861,,blitz2_targets.txt (aggregate: 49 ties)
+squ_in_pen,8,tie-documented,drop-one (night sweep); search; search (blitz-2),David W. Cantrell,2.565,,CAMPAIGN.md: reproduced incumbent to 7 digits | blitz2_targets.txt (aggregate: 49 ties) | night_harvest/do0_*
+squ_in_pen,9,tie-documented,drop-one (night sweep); harvest; search (blitz-3),Timo Berthold et al,2.693,2.693974389,blitz3_targets.txt (aggregate: 0/69 improvements) | night_harvest/do0_* | sweep_results.md
+squ_in_pen,10,tie-documented,drop-one (night sweep); harvest; search; search (blitz-3),Timo Berthold et al,2.793,2.793235659,CAMPAIGN.md: reproduced incumbent to 7 digits | blitz3_targets.txt (aggregate: 0/69 improvements) | night_harvest/do0_* | sweep_results.md
+squ_in_pen,11,tie-documented,drop-one (night sweep); harvest; search (blitz-3),Timo Berthold et al,2.89,2.890797295,blitz3_targets.txt (aggregate: 0/69 improvements) | night_harvest/do0_* | sweep_results.md
+squ_in_pen,12,tie-documented,drop-one (night sweep); harvest; search (blitz-3),Timo Berthold et al,2.969,2.969697186,blitz3_targets.txt (aggregate: 0/69 improvements) | night_harvest/do0_* | sweep_results.md
+squ_in_pen,13,tie-documented,drop-one (night sweep); harvest,Jake Loyd,3.12074,3.120749843,night_harvest/do0_* | sweep_results.md
+squ_in_pen,14,tie-documented,search,David W. Cantrell,,,CAMPAIGN.md: reproduced incumbent to 7 digits
+squ_in_pen,15,tie-documented,drop-one (night sweep); search,David W. Cantrell,,,CAMPAIGN.md: reproduced incumbent to 7 digits | night_harvest/do0_*
+squ_in_pen,16,tie-documented,drop-one (night sweep); harvest,Jonathan Viquerat,3.47851,3.478509029,night_harvest/do0_* | sweep_results.md
+squ_in_pen,17,tie-documented,drop-one (night sweep); harvest,Ignacio Vallejo,3.541,3.541234215,night_harvest/do0_* | sweep_results.md
+squ_in_pen,18,tie-documented,drop-one (night sweep); harvest,Haowei Lin,3.62598,3.626006292,night_harvest/do0_* | sweep_results.md
+squ_in_pen,19,tie-documented,drop-one (night sweep); harvest,Jake Loyd,3.70918,3.709184335,night_harvest/do0_* | sweep_results.md
+squ_in_pen,20,tie-documented,drop-one (night sweep); harvest,Jake Loyd,3.79775,3.798109708,night_harvest/do0_* | sweep_results.md
+squ_in_pen,21,tie-documented,drop-one (night sweep); harvest,Jake Loyd,3.86365,3.863776944,night_harvest/do0_* | sweep_results.md
+squ_in_pen,22,tie-documented,drop-one (night sweep); harvest; search (BH/GPU),Jake Loyd,3.93347,3.933490774,night_harvest/do0_* | results/*_bh_* | sweep_results.md
+squ_in_pen,23,tie-documented,drop-one (night sweep); harvest; search (BH/GPU),Jake Loyd,4.00109,4.001132908,night_harvest/do0_* | results/*_bh_* | sweep_results.md
+squ_in_pen,24,tie-documented,drop-one (night sweep); harvest; search (lane),Jake Loyd,4.10103,4.101440739,"CAMPAIGN.md: overnight lane, 4.4e-4 from Loyd, no find | night_harvest/do0_* | sweep_results.md"
+squ_in_pen,25,tie-documented,drop-one (night sweep); harvest,Jake Loyd,4.16727,4.167485977,night_harvest/do0_* | sweep_results.md
+squ_in_pen,26,tie-documented,drop-one (night sweep); harvest,Jake Loyd,4.2215,4.221666148,night_harvest/do0_* | sweep_results.md
+squ_in_pen,27,tie-documented,drop-one (night sweep); harvest,Jake Loyd,4.34851,4.348518566,night_harvest/do0_* | sweep_results.md
+squ_in_pen,28,tie-documented,drop-one (night sweep); harvest,Jake Loyd,4.41576,4.415868759,night_harvest/do0_* | sweep_results.md
+squ_in_pen,29,tie-documented,drop-one (night sweep); harvest,Jake Loyd,4.49879,4.498885531,night_harvest/do0_* | sweep_results.md
+squ_in_pen,30,tie-documented,drop-one (night sweep); harvest,Jake Loyd,4.54753,4.547630236,night_harvest/do0_* | sweep_results.md
+squ_in_pen,31,tie-documented,drop-one (night sweep); harvest,Jake Loyd,4.62404,4.624124953,night_harvest/do0_* | sweep_results.md
+squ_in_pen,32,tie-documented,drop-one (night sweep); harvest,Jake Loyd,4.7,4.700081020,night_harvest/do0_* | sweep_results.md
+squ_in_pen,33,tie-documented,drop-one (night sweep); harvest,Jake Loyd,4.75331,4.753440863,night_harvest/do0_* | sweep_results.md
+squ_in_pen,34,tie-documented,drop-one (night sweep); harvest,Jake Loyd,4.81345,4.813576641,night_harvest/do0_* | sweep_results.md
+squ_in_pen,35,tie-documented,drop-one (night sweep); harvest,Jake Loyd,4.86283,4.862926211,night_harvest/do0_* | sweep_results.md
+squ_in_pen,36,tie-documented,drop-one (night sweep); harvest,Jake Loyd,4.93131,4.931525173,night_harvest/do0_* | sweep_results.md
+squ_in_pen,37,tie-documented,drop-one (night sweep); harvest,Jake Loyd,4.97801,4.978037664,night_harvest/do0_* | sweep_results.md
+squ_in_pen,38,tie-documented,drop-one (night sweep); harvest,Jake Loyd,5.04838,5.048455863,night_harvest/do0_* | sweep_results.md
+squ_in_pen,39,tie-documented,drop-one (night sweep); harvest,Jake Loyd,5.13653,5.137335583,night_harvest/do0_* | sweep_results.md
+squ_in_pen,40,tie-documented,harvest,Jake Loyd,5.16849,5.168573701,sweep_results.md
+squ_in_tri,8,no-improvement,search (blitz-2),David W. Cantrell,5.301,,blitz2_targets.txt (aggregate: 49 ties)
+squ_in_tri,12,no-improvement,search (blitz-3),David W. Cantrell,6.301,,blitz3_targets.txt (aggregate: 0/69 improvements)
+squ_in_tri,13,attempted,drop-one (night sweep),Erich Friedman,,,night_harvest/do0_*
+squ_in_tri,14,attempted,drop-one (night sweep),Erich Friedman,,,night_harvest/do0_*
+squ_in_tri,15,attempted,drop-one (night sweep),Erich Friedman,,,night_harvest/do0_*
+squ_in_tri,16,tie-documented,search (BH/GPU); search (lane),Erich Friedman,,,CAMPAIGN.md: documented tie | results/*_bh_*
+squ_in_tri,19,attempted,drop-one (night sweep),Erich Friedman,,,night_harvest/do0_*
+squ_in_tri,20,tie-documented,harvest; search (lane),Haowei Lin,7.61695,7.618618701,"CAMPAIGN.md: chased Lin at +1.8e-5, no find | sweep_results.md"
+squ_in_tri,21,attempted,drop-one (night sweep),Erich Friedman,,,night_harvest/do0_*
+squ_in_tri,22,tie-documented,harvest (closed-form identified),Markus Vesterinen,,,sweep_results.md
+squ_in_tri,25,attempted,drop-one (night sweep),Erich Friedman,,,night_harvest/do0_*
+squ_in_tri,26,attempted,drop-one (night sweep),Erich Friedman,,,night_harvest/do0_*
+squ_in_tri,29,tie-documented,search,Erich Friedman,,,CAMPAIGN.md: documented tie
+squ_in_tri,32,attempted,drop-one (night sweep),Erich Friedman,,,night_harvest/do0_*
+squ_in_tri,33,attempted,drop-one (night sweep),Erich Friedman,,,night_harvest/do0_*
+squ_in_tri,34,attempted,drop-one (night sweep),Erich Friedman,,,night_harvest/do0_*
+squ_in_tri,35,attempted,drop-one (night sweep); search (BH/GPU),Erich Friedman,,,night_harvest/do0_* | results/*_bh_*
+squ_in_tri,37,attempt-failed,drop-one (night sweep); harvest,Gianluca Costantino,,,night_harvest/do0_* | sweep_results.md
+squ_in_tri,38,no-improvement,drop-one (night sweep); harvest; search (lane),Gianluca Costantino,,,"CAMPAIGN.md: Costantino sub-form target, no find | night_harvest/do0_* | sweep_results.md"
+squ_in_tri,39,tie-documented,drop-one (night sweep); harvest (closed-form identified),Bhavithran Ananthan,,,night_harvest/do0_* | sweep_results.md
+squ_in_tri,40,tie-documented,drop-one (night sweep); harvest (closed-form identified),Bhavithran Ananthan,,,night_harvest/do0_* | sweep_results.md
+squ_in_tri,41,beaten-claimed,drop-one (night sweep); harvest; search (BH/GPU); search+drop-one,Haowei Lin,10.61923,10.618802157230435,ledger: standing | night_harvest/do0_* | results/*_bh_* | sweep_results.md
+squ_in_tri,42,beaten-claimed,closed-form; drop-one (night sweep); harvest; search (BH/GPU),Haowei Lin,10.61956,10.618802157230435,ledger: standing | night_harvest/do0_* | results/*_bh_* | sweep_results.md
+squ_in_tri,43,beaten-claimed,closed-form; harvest,Haowei Lin,10.77405,10.773502698922991,ledger: standing | sweep_results.md
+squ_in_tri,44,no-improvement,search,,,,CAMPAIGN.md: Wu basin exhausted
+tri_in_hex,6,no-improvement,search (blitz-2),Trivial,1.0,,blitz2_targets.txt (aggregate: 49 ties)
+tri_in_hex,7,no-improvement,drop-one (night sweep); search (blitz-2),David W. Cantrell,1.277,,blitz2_targets.txt (aggregate: 49 ties) | night_harvest/do0_*
+tri_in_hex,8,tie-documented,search (BH/GPU); search (blitz-2); search+submit,David W. Cantrell,1.356,,CAMPAIGN.md: certified tie with Cantrell 2012 (channel test) | blitz2_targets.txt (aggregate: 49 ties) | results/*_bh_*
+tri_in_hex,9,no-improvement,search (blitz-3),Erich Friedman,1.434,,blitz3_targets.txt (aggregate: 0/69 improvements)
+tri_in_hex,10,no-improvement,harvest; search (blitz-3),Timo Berthold et al,1.497,,blitz3_targets.txt (aggregate: 0/69 improvements) | sweep_results.md
+tri_in_hex,12,no-improvement,harvest; search (blitz-3),Timo Berthold et al,1.623,,blitz3_targets.txt (aggregate: 0/69 improvements) | sweep_results.md
+tri_in_hex,16,tie-documented,search,Maurizio Morandi,,,CAMPAIGN.md: refined to record value +1e-9
+tri_in_hex,17,tie-documented,search,Maurizio Morandi,,,CAMPAIGN.md: refined to record value +1e-9
+tri_in_hex,18,tie-documented,drop-one (night sweep); search,Maurizio Morandi,,,CAMPAIGN.md: refined to record value +1e-9 | night_harvest/do0_*
+tri_in_hex,19,tie-documented,drop-one (night sweep); harvest,Alex Adrián Nieto,1.953,1.953942435,night_harvest/do0_* | sweep_results.md
+tri_in_hex,20,tie-documented,drop-one (night sweep); harvest,Aaden Abraham,1.97591,1.976040619,night_harvest/do0_* | sweep_results.md
+tri_in_hex,21,tie-documented,harvest; search (BH/GPU); search (control),Haowei Lin,1.99869,1.999195854,"CAMPAIGN.md: 4,700+ starts, 400+ BH rounds; stuck 1.99877 vs 1.99869+ | results/*_bh_* | sweep_results.md"
+tri_in_hex,22,no-improvement,search (plateau),Trivial,,,CAMPAIGN.md: s=2 plateau rigid
+tri_in_hex,23,no-improvement,search (plateau),Trivial,,,CAMPAIGN.md: s=2 plateau rigid
+tri_in_hex,24,no-improvement,search (plateau),Trivial,,,CAMPAIGN.md: s=2 plateau rigid
+tri_in_hex,25,attempted,drop-one (night sweep),Ignacio Vallejo,,,night_harvest/do0_*
+tri_in_hex,26,tie-documented,drop-one (night sweep); harvest,Ian Watson,2.21991,2.219920312,night_harvest/do0_* | sweep_results.md
+tri_in_hex,27,tie-documented,drop-one (night sweep); harvest,Haowei Lin,2.2954,2.295509941,night_harvest/do0_* | sweep_results.md
+tri_in_hex,28,tie-documented,harvest; search (fresh tail),Jake Loyd,2.32251,2.322606627,"CAMPAIGN.md: best 2.33299 vs 2.32251+, miss 1.05e-2 | sweep_results.md"
+tri_in_hex,31,attempted,drop-one (night sweep),Emerson Connelly,,,night_harvest/do0_*
+tri_in_hex,32,tie-documented,drop-one (night sweep); harvest,Haowei Lin,2.46104,2.461243083,night_harvest/do0_* | sweep_results.md
+tri_in_hex,33,tie-documented,harvest,Jake Loyd,2.49038,2.490381657,sweep_results.md
+tri_in_hex,35,attempted,drop-one (night sweep),Emerson Connelly,,,night_harvest/do0_*
+tri_in_hex,36,beaten-claimed,drop-one (night sweep); harvest,Thomas Greenleaf,2.58309,2.583078120356046,ledger: standing | night_harvest/do0_* | sweep_results.md
+tri_in_hex,37,tie-documented,drop-one (night sweep); harvest,Jake Loyd,2.61436,2.614471622,night_harvest/do0_* | sweep_results.md
+tri_in_hex,38,tie-documented,harvest,Jake Loyd,2.65998,2.660205302,sweep_results.md
+tri_in_hex,39,attempted,drop-one (night sweep),Emerson Connelly,,,night_harvest/do0_*
+tri_in_hex,40,tie-documented,drop-one (night sweep); harvest,Jake Loyd,2.71131,2.711322023,night_harvest/do0_* | sweep_results.md
+tri_in_hex,41,tie-documented,harvest,Jake Loyd,2.73692,2.737286439,sweep_results.md
+tri_in_oct,3,tie-documented,search (blitz-1),Ignacio Vallejo,0.73651,0.736539672,blitz_final.txt | blitz_targets.txt
+tri_in_oct,4,tie-documented,search (blitz-1),Timo Berthold et al,0.77731,0.777317148,blitz_final.txt | blitz_targets.txt
+tri_in_oct,5,no-improvement,search (blitz-1),Nicolas Campailla,0.80366,,blitz_targets.txt
+tri_in_oct,6,tie-documented,harvest; search (blitz-2),Ignacio Vallejo,0.81574,0.815748793,blitz2_targets.txt (aggregate: 49 ties) | sweep_results.md
+tri_in_oct,7,tie-documented,harvest; search (blitz-2),Ignacio Vallejo,0.92453,0.924531144,blitz2_targets.txt (aggregate: 49 ties) | sweep_results.md
+tri_in_oct,8,no-improvement,harvest; search (blitz-2),Timo Berthold et al,0.98777,,blitz2_targets.txt (aggregate: 49 ties) | sweep_results.md
+tri_in_oct,9,tie-documented,harvest; search (blitz-3),Grant Mowry,1.00871,1.008713748,blitz3_targets.txt (aggregate: 0/69 improvements) | sweep_results.md
+tri_in_oct,10,no-improvement,drop-one (night sweep); harvest; search (blitz-3),Jake Loyd,1.07515,,blitz3_targets.txt (aggregate: 0/69 improvements) | night_harvest/do0_* | sweep_results.md
+tri_in_oct,11,tie-documented,harvest; search (blitz-3),Grant Mowry,1.14562,1.145624094,blitz3_targets.txt (aggregate: 0/69 improvements) | sweep_results.md
+tri_in_oct,12,no-improvement,drop-one (night sweep); harvest; search (blitz-3),Timo Berthold et al,1.19914,,blitz3_targets.txt (aggregate: 0/69 improvements) | night_harvest/do0_* | sweep_results.md
+tri_in_oct,13,tie-documented,drop-one (night sweep); harvest,Jake Loyd,1.23726,1.237300163,night_harvest/do0_* | sweep_results.md
+tri_in_oct,14,tie-documented,harvest,Jake Loyd,1.27629,1.276381187,sweep_results.md
+tri_in_oct,15,attempt-failed,drop-one (night sweep); harvest,Timo Berthold et al,,,night_harvest/do0_* | sweep_results.md
+tri_in_oct,16,tie-documented,drop-one (night sweep); harvest,Jake Loyd,1.34566,1.345660283,night_harvest/do0_* | sweep_results.md
+tri_in_oct,17,tie-documented,drop-one (night sweep); harvest,Jake Loyd,1.38854,1.388585158,night_harvest/do0_* | sweep_results.md
+tri_in_oct,18,tie-documented,drop-one (night sweep); harvest,Jake Loyd,1.41763,1.417658031,night_harvest/do0_* | sweep_results.md
+tri_in_oct,19,tie-documented,drop-one (night sweep); harvest,Jake Loyd,1.46678,1.466944900,night_harvest/do0_* | sweep_results.md
+tri_in_oct,20,tie-documented,drop-one (night sweep); harvest,Jake Loyd,1.49689,1.496901507,night_harvest/do0_* | sweep_results.md
+tri_in_oct,21,tie-documented,drop-one (night sweep); harvest,Jake Loyd,1.52519,1.525299844,night_harvest/do0_* | sweep_results.md
+tri_in_oct,22,tie-documented,drop-one (night sweep); harvest,Jake Loyd,1.55435,1.554978112,night_harvest/do0_* | sweep_results.md
+tri_in_oct,23,tie-documented,drop-one (night sweep); harvest,Jake Loyd,1.58348,1.583567508,night_harvest/do0_* | sweep_results.md
+tri_in_oct,24,tie-documented,drop-one (night sweep); harvest,Jake Loyd,1.6018,1.601962511,night_harvest/do0_* | sweep_results.md
+tri_in_oct,25,tie-documented,drop-one (night sweep); harvest,Jake Loyd,1.63703,1.637108100,night_harvest/do0_* | sweep_results.md
+tri_in_oct,26,tie-documented,drop-one (night sweep); harvest,Jake Loyd,1.67455,1.674653223,night_harvest/do0_* | sweep_results.md
+tri_in_oct,27,tie-documented,drop-one (night sweep); harvest,Jake Loyd,1.70616,1.707581176,night_harvest/do0_* | sweep_results.md
+tri_in_oct,28,tie-documented,drop-one (night sweep); harvest,Jake Loyd,1.73796,1.737964474,night_harvest/do0_* | sweep_results.md
+tri_in_oct,29,tie-documented,drop-one (night sweep); harvest,Jake Loyd,1.75285,1.753255540,night_harvest/do0_* | sweep_results.md
+tri_in_oct,30,tie-documented,drop-one (night sweep); harvest,Jake Loyd,1.77911,1.779157229,night_harvest/do0_* | sweep_results.md
+tri_in_oct,31,beaten-claimed,drop-one (night sweep); harvest,Thomas Greenleaf,1.80341,1.803380228582351,ledger: standing | night_harvest/do0_* | sweep_results.md
+tri_in_oct,32,beaten-claimed,drop-one (night sweep); harvest,Thomas Greenleaf,1.83002,1.829942561156610,ledger: standing | night_harvest/do0_* | sweep_results.md
+tri_in_oct,33,beaten-claimed,drop-one; drop-one (night sweep); harvest,Mohamed Metwalli,1.85532,1.847892538040222,ledger: standing | night_harvest/do0_* | sweep_results.md
+tri_in_oct,34,beaten-claimed,drop-one; drop-one (night sweep); harvest,Mohamed Metwalli,1.87179,1.864544399987333,ledger: standing | night_harvest/do0_* | sweep_results.md
+tri_in_oct,35,beaten-claimed,harvest,Mohamed Metwalli,1.89225,1.890513580971307,ledger: standing | sweep_results.md
+tri_in_oct,36,beaten-claimed,drop-one (night sweep); harvest,Mohamed Metwalli,1.92843,1.926678746514661,ledger: standing | night_harvest/do0_* | sweep_results.md
+tri_in_oct,37,beaten-claimed,harvest,Mohamed Metwalli,1.95803,1.956159784268007,ledger: standing | sweep_results.md
+tri_in_pen,3,no-improvement,search (blitz-2),Maurizio Morandi,1.143,,blitz2_targets.txt (aggregate: 49 ties)
+tri_in_pen,4,no-improvement,search (blitz-2),Maurizio Morandi,1.199,,blitz2_targets.txt (aggregate: 49 ties)
+tri_in_pen,6,tie-documented,harvest; search (blitz-2),Dominik Kamp,1.393,1.393618418,blitz2_targets.txt (aggregate: 49 ties) | sweep_results.md
+tri_in_pen,7,no-improvement,search (blitz-2),David W. Cantrell,1.581,,blitz2_targets.txt (aggregate: 49 ties)
+tri_in_pen,8,no-improvement,search (blitz-2),Maurizio Morandi,1.659,,blitz2_targets.txt (aggregate: 49 ties)
+tri_in_pen,9,no-improvement,drop-one (night sweep); search (blitz-3),Maurizio Morandi (improved by David W. Cantrell),1.767,,blitz3_targets.txt (aggregate: 0/69 improvements) | night_harvest/do0_*
+tri_in_pen,10,tie-documented,drop-one (night sweep); harvest; search (blitz-3),Timo Berthold et al,1.815,1.815967369,blitz3_targets.txt (aggregate: 0/69 improvements) | night_harvest/do0_* | sweep_results.md
+tri_in_pen,11,tie-documented,drop-one (night sweep); harvest; search (blitz-3),Timo Berthold et al,1.871,1.871865045,blitz3_targets.txt (aggregate: 0/69 improvements) | night_harvest/do0_* | sweep_results.md
+tri_in_pen,12,tie-documented,drop-one (night sweep); harvest; search (blitz-3),Ignacio Vallejo,1.973,1.973299205,blitz3_targets.txt (aggregate: 0/69 improvements) | night_harvest/do0_* | sweep_results.md
+tri_in_pen,13,tie-documented,drop-one (night sweep); harvest,Timo Berthold et al,2.017,2.017603344,night_harvest/do0_* | sweep_results.md
+tri_in_pen,14,tie-documented,drop-one (night sweep); harvest,Ignacio Vallejo,2.088,2.088506521,night_harvest/do0_* | sweep_results.md
+tri_in_pen,15,tie-documented,drop-one (night sweep); harvest,Ignacio Vallejo,2.123,2.123195316,night_harvest/do0_* | sweep_results.md
+tri_in_pen,16,tie-documented,drop-one (night sweep); harvest,Jake Loyd,2.17596,2.175994199,night_harvest/do0_* | sweep_results.md
+tri_in_pen,17,tie-documented,drop-one (night sweep); harvest,Jake Loyd,2.23656,2.236643161,night_harvest/do0_* | sweep_results.md
+tri_in_pen,18,tie-documented,drop-one (night sweep); harvest,Jake Loyd,2.29381,2.293875943,night_harvest/do0_* | sweep_results.md
+tri_in_pen,19,tie-documented,drop-one (night sweep); harvest,Ignacio Vallejo,2.344,2.344137632,night_harvest/do0_* | sweep_results.md
+tri_in_pen,20,tie-documented,drop-one (night sweep); harvest,Jake Loyd,2.43345,2.433445860,night_harvest/do0_* | sweep_results.md
+tri_in_pen,21,tie-documented,drop-one (night sweep); harvest,Ignacio Vallejo,2.479,2.479171003,night_harvest/do0_* | sweep_results.md
+tri_in_pen,22,tie-documented,drop-one (night sweep); harvest,Ian Watson,2.5674,2.567415295,night_harvest/do0_* | sweep_results.md
+tri_in_pen,23,tie-documented,drop-one (night sweep); harvest,Jake Loyd,2.61825,2.618340596,night_harvest/do0_* | sweep_results.md
+tri_in_pen,24,tie-documented,drop-one (night sweep); harvest,Ian Watson,2.66641,2.666446183,night_harvest/do0_* | sweep_results.md
+tri_in_pen,25,tie-documented,drop-one (night sweep); harvest,Jake Loyd,2.7186,2.718630075,night_harvest/do0_* | sweep_results.md
+tri_in_pen,26,tie-documented,drop-one (night sweep); harvest,Jake Loyd,2.76865,2.768675606,night_harvest/do0_* | sweep_results.md
+tri_in_pen,27,tie-documented,drop-one (night sweep); harvest,Jake Loyd,2.81741,2.817445223,night_harvest/do0_* | sweep_results.md
+tri_in_pen,28,beaten-claimed,drop-one (night sweep); harvest,Ignacio Vallejo,2.868,2.866364405710964,ledger: standing | night_harvest/do0_* | sweep_results.md
+tri_in_pen,29,beaten-claimed,drop-one (night sweep); harvest,Ignacio Vallejo,2.903,2.902407086110427,ledger: standing | night_harvest/do0_* | sweep_results.md
+tri_in_pen,30,beaten-claimed,drop-one (night sweep); harvest,Jake Loyd,2.9502,2.950141785091575,ledger: standing | night_harvest/do0_* | sweep_results.md
+tri_in_pen,31,tie-documented,drop-one (night sweep); harvest,Jake Loyd,2.98366,2.983789738,night_harvest/do0_* | sweep_results.md
+tri_in_pen,32,tie-documented,drop-one (night sweep); harvest,Jake Loyd,3.02686,3.026891111,night_harvest/do0_* | sweep_results.md
+tri_in_pen,33,tie-documented,drop-one (night sweep); harvest,Jake Loyd,3.06583,3.065838584,night_harvest/do0_* | sweep_results.md
+tri_in_pen,34,beaten-claimed,drop-one (night sweep); harvest,Emerson Connelly,3.114,3.110731485121739,ledger: standing | night_harvest/do0_* | sweep_results.md
+tri_in_pen,35,beaten-claimed,drop-one (night sweep); harvest,Emerson Connelly,3.15,3.148433015984678,ledger: standing | night_harvest/do0_* | sweep_results.md
+tri_in_pen,36,beaten-claimed,drop-one (night sweep); harvest,Emerson Connelly,3.177,3.174730905252747,ledger: standing | night_harvest/do0_* | sweep_results.md
+tri_in_pen,37,tie-documented,drop-one (night sweep); harvest,Jake Loyd,3.2112,3.211333140,night_harvest/do0_* | sweep_results.md
+tri_in_pen,38,tie-documented,drop-one (night sweep); harvest,Jake Loyd,3.24851,3.248800802,night_harvest/do0_* | sweep_results.md
+tri_in_pen,39,tie-documented,drop-one (night sweep); harvest,Jake Loyd,3.29219,3.292219709,night_harvest/do0_* | sweep_results.md
+tri_in_pen,40,tie-documented,drop-one (night sweep); harvest,Jake Loyd,3.32605,3.326131895,night_harvest/do0_* | sweep_results.md
+tri_in_pen,41,tie-documented,drop-one (night sweep); harvest,Thomas Greenleaf,3.3674,3.367476587,night_harvest/do0_* | sweep_results.md
+tri_in_pen,42,beaten-claimed,drop-one (night sweep); harvest,Thomas Greenleaf,3.42525,3.425057335841219,ledger: standing | night_harvest/do0_* | sweep_results.md
+tri_in_pen,43,beaten-claimed,drop-one (night sweep); harvest,Thomas Greenleaf,3.46441,3.464339139102929,ledger: standing | night_harvest/do0_* | sweep_results.md
+tri_in_pen,44,tie-documented,harvest; search (BH/GPU),Derek Wu,3.5214,3.521433884,results/*_bh_* | sweep_results.md
+tri_in_pen,45,attempt-failed,harvest; harvest (recon); search (BH/GPU),Emerson Connelly,,,CAMPAIGN.md: 3 attempts land ~3.53 vs 3.5126; below resolution floor | results/*_bh_* | sweep_results.md
+tri_in_squ,5,no-improvement,search (blitz-2),Erich Friedman,1.803,,blitz2_targets.txt (aggregate: 49 ties)
+tri_in_squ,7,no-improvement,search (blitz-2),Erich Friedman,2.0,,blitz2_targets.txt (aggregate: 49 ties)
+tri_in_squ,9,no-improvement,search (blitz-3),Maurizio Morandi,2.287,,blitz3_targets.txt (aggregate: 0/69 improvements)
+tri_in_squ,10,no-improvement,search (blitz-3),David W. Cantrell,2.377,,blitz3_targets.txt (aggregate: 0/69 improvements)
+tri_in_squ,11,no-improvement,drop-one (night sweep); search (blitz-3),Maurizio Morandi,2.49,,blitz3_targets.txt (aggregate: 0/69 improvements) | night_harvest/do0_*
+tri_in_squ,12,no-improvement,harvest; search (blitz-3),Dominik Kamp,2.558,,blitz3_targets.txt (aggregate: 0/69 improvements) | sweep_results.md
+tri_in_squ,14,attempted,drop-one (night sweep),David W. Cantrell,,,night_harvest/do0_*
+tri_in_squ,15,tie-documented,drop-one (night sweep); harvest,Jake Loyd,2.82989,2.829911354,night_harvest/do0_* | sweep_results.md
+tri_in_squ,16,tie-documented,harvest,Ian Watson,2.9,2.900042694,sweep_results.md
+tri_in_squ,18,attempted,drop-one (night sweep),Maurizio Morandi,,,night_harvest/do0_*
+tri_in_squ,19,tie-documented,drop-one (night sweep); harvest,Jake Loyd,3.12929,3.129302023,night_harvest/do0_* | sweep_results.md
+tri_in_squ,20,tie-documented,drop-one (night sweep); harvest,Ian Watson,3.2305,3.230595578,night_harvest/do0_* | sweep_results.md
+tri_in_squ,21,tie-documented,drop-one (night sweep); harvest,Thomas Schadt,3.31102,3.311033156,night_harvest/do0_* | sweep_results.md
+tri_in_squ,22,tie-documented,drop-one (night sweep); harvest,Ian Watson,3.3757,3.375797355,night_harvest/do0_* | sweep_results.md
+tri_in_squ,23,tie-documented,drop-one (night sweep); harvest,Ian Watson,3.4311,3.431581851,night_harvest/do0_* | sweep_results.md
+tri_in_squ,24,tie-documented,harvest,Thomas Schadt,3.4678,3.475917223,sweep_results.md
+tri_in_squ,26,attempted,drop-one (night sweep),Maurizio Morandi,,,night_harvest/do0_*
+tri_in_squ,27,tie-documented,drop-one (night sweep); harvest,Ian Watson,3.6726,3.673364646,night_harvest/do0_* | sweep_results.md
+tri_in_squ,28,tie-documented,drop-one (night sweep); harvest,Jake Loyd,3.75707,3.757161229,night_harvest/do0_* | sweep_results.md
+tri_in_squ,29,tie-documented,drop-one (night sweep); harvest,Jake Loyd,3.81711,3.817128988,night_harvest/do0_* | sweep_results.md
+tri_in_squ,30,tie-documented,drop-one (night sweep); harvest,Jake Loyd,3.86619,3.866200962,night_harvest/do0_* | sweep_results.md
+tri_in_squ,31,tie-documented,drop-one (night sweep); harvest,Jake Loyd,3.93107,3.931088865,night_harvest/do0_* | sweep_results.md
+tri_in_squ,32,tie-documented,drop-one (night sweep); harvest,Jake Loyd,3.9788,3.978818881,night_harvest/do0_* | sweep_results.md
+tri_in_squ,33,tie-documented,drop-one (night sweep); harvest,Jake Loyd,4.05164,4.051673806,night_harvest/do0_* | sweep_results.md
+tri_in_squ,34,tie-documented,drop-one (night sweep); harvest,Jake Loyd,4.09088,4.090899363,night_harvest/do0_* | sweep_results.md
+tri_in_squ,35,tie-documented,drop-one (night sweep); harvest,Jake Loyd,4.14123,4.141317584,night_harvest/do0_* | sweep_results.md
+tri_in_squ,36,tie-documented,drop-one (night sweep); harvest,Jake Loyd,4.20791,4.208105052,night_harvest/do0_* | sweep_results.md
+tri_in_squ,37,tie-documented,drop-one (night sweep); harvest,Jake Loyd,4.2688,4.268892659,night_harvest/do0_* | sweep_results.md
+tri_in_squ,38,tie-documented,drop-one (night sweep); harvest,Jake Loyd,4.32018,4.320208880,night_harvest/do0_* | sweep_results.md
+tri_in_squ,39,tie-documented,drop-one (night sweep); harvest,Jake Loyd,4.36792,4.367964590,night_harvest/do0_* | sweep_results.md
+tri_in_squ,40,tie-documented,drop-one (night sweep); harvest,Jake Loyd,4.41058,4.411178365,night_harvest/do0_* | sweep_results.md
+tri_in_squ,41,tie-documented,drop-one (night sweep); harvest,Jake Loyd,4.46446,4.464966316,night_harvest/do0_* | sweep_results.md
+tri_in_squ,42,tie-documented,drop-one (night sweep); harvest,Thomas Schadt,4.51177,4.512323283,night_harvest/do0_* | sweep_results.md
+tri_in_squ,43,tie-documented,drop-one (night sweep); harvest,Thomas Schadt,4.55035,4.550396812,night_harvest/do0_* | sweep_results.md
+tri_in_squ,44,tie-documented,drop-one (night sweep); harvest,Thomas Schadt,4.60023,4.600235328,night_harvest/do0_* | sweep_results.md
+tri_in_squ,45,tie-documented,harvest,Thomas Schadt,4.67749,4.677595677,sweep_results.md
+tri_in_tri,7,no-improvement,search (blitz-2),Trivial,3.0,,blitz2_targets.txt (aggregate: 49 ties)
+tri_in_tri,8,no-improvement,search (blitz-2),Trivial,3.0,,blitz2_targets.txt (aggregate: 49 ties)

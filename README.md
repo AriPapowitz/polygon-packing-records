@@ -9,10 +9,14 @@ across 14 of the site's tables (triangles/squares/pentagons/hexagons/octagons in
 various containers). **52 were credited** under the name *Aristotle Papowitz*
 (verified against archived table scrapes), **41 still standing as of
 August 16, 2026** — and every submitted packing re-certifies from its exact
-coordinates (`paper/certification.csv`). The full reconciled ledger (every
-claim, margin, mechanism, and current status) is in [LEDGER.md](LEDGER.md); the
-chronological campaign log — what worked, what failed, and every negative
-result — is in [CAMPAIGN.md](CAMPAIGN.md).
+coordinates (`paper/certification.csv`), with machine-rigorous
+interval-arithmetic certificates in `paper/certification_interval.csv`. The
+full reconciled ledger (every claim, margin, mechanism, and current status) is
+in [LEDGER.md](LEDGER.md); the campaign's complete audit trail — 551 problems
+examined, per-entry outcomes with evidence — is in
+[ATTACK_MATRIX.md](ATTACK_MATRIX.md); the chronological campaign log — what
+worked, what failed, and every negative result — is in
+[CAMPAIGN.md](CAMPAIGN.md).
 
 <p align="center">
   <img src="polygon-packer/results/night_trioct34.png" width="300"

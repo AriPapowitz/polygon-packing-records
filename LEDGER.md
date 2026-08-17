@@ -17,6 +17,13 @@ Conservative — only what the archives and a fresh certification run can prove.
   emailed: independent exact-SAT certification reproduces every claimed value to
   ≤1e-9; worst pair separation ≥ −8e-13, worst containment ≥ −6e-13,
   certification cost ≤ 1e-11 (`paper/certification.csv`).
+- **55/55 interval-certified (2026-08-17)**: mpmath interval arithmetic with
+  outward rounding proves margin lower bounds ≥ −5e-13 and a certified side
+  length below every beaten entry's displayed floor
+  (`paper/certification_interval.csv`, `paper/certify_interval.py`).
+- **Audit coverage**: the campaign examined 551 problems in total — the full
+  per-entry attack matrix with evidence links is `ATTACK_MATRIX.md` /
+  `paper/attack_matrix.csv`.
 - **52 problems credited** "Aristotle Papowitz, July 2026" — *verified* in at
   least one archived scrape.
 - **41 standing as of 2026-08-16** (49 were standing 2026-07-09).
