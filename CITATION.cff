@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use polypack in your work, please cite it as below."
+type: software
+title: "polypack: certified search and verification for packings of regular polygons in regular polygons"
+authors:
+  - family-names: Papowitz
+    given-names: Aristotle
+version: 1.0.0
+date-released: 2026-08-17
+license: GPL-3.0-only
+repository-code: "https://github.com/AriPapowitz/polygon-packing-records"
+keywords:
+  - packing problems
+  - computational geometry
+  - global optimization
+  - certified computation
+  - experimental mathematics
+  - JAX
+abstract: >-
+  A Python toolkit for finding and certifying record packings of unit regular
+  polygons in minimal regular polygon containers: a batched float32/float64
+  GPU search engine, an independent exact separating-axis certifier with
+  rigorous dilation bounds, image-to-coordinates reconstruction of published
+  packings, structured basin-hopping and drop-one record mechanisms,
+  high-precision contact solving with residual-validated PSLQ, and
+  benchmark scrape/archive tooling. The toolkit behind a 2026 record
+  campaign on Erich Friedman's Packing Center (52 credited improvements).

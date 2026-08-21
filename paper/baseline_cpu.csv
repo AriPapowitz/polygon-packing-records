@@ -1,0 +1,14 @@
+category,n,system,seconds,starts,best_s,best_known_s,gap,note
+tri_in_hex,8,engine,613,288,1.356597401,1.356597400,+1.52e-09,legacy tie (Cantrell 2012)
+tri_in_hex,8,reference,963,971,1.356849124,1.356597400,+2.52e-04,legacy tie (Cantrell 2012)
+squ_in_pen,10,engine,899,16,2.793490049,2.793235659,+2.54e-04,"solver-team entry, documented tie"
+squ_in_pen,10,reference,617,213,2.796154230,2.793235659,+2.92e-03,"solver-team entry, documented tie"
+tri_in_pen,12,engine,816,48,1.974305527,1.973299205,+1.01e-03,"2026 entry, documented tie"
+tri_in_pen,12,reference,988,293,1.975705316,1.973299205,+2.41e-03,"2026 entry, documented tie"
+hex_in_hex,12,engine,978,32,3.941786398,3.941643237,+1.43e-04,"AlphaEvolve entry, documented tie"
+hex_in_hex,12,reference,979,627,3.942048765,3.941643237,+4.06e-04,"AlphaEvolve entry, documented tie"
+tri_in_hex,21,engine,716,16,2.000000002,1.998690000,+1.31e-03,rearrangement control (displayed floor)
+tri_in_hex,21,reference,972,108,2.000407467,1.998690000,+1.72e-03,rearrangement control (displayed floor)
+squ_in_oct,26,engine,4263,16,2.527682425,2.527094992,+5.87e-04,our record
+squ_in_oct,26,reference,975,36,2.566776286,2.527094992,+3.97e-02,our record
+squ_in_oct,26,reference,2695,118,2.566776286,2.527094992,+3.97e-02,"our record; extended run toward the engine's 4263 s, stopped early at 2695 s — no improvement over the 975 s run"

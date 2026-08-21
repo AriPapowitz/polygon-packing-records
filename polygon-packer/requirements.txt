@@ -1,3 +1,6 @@
+# Legacy requirements for the campaign-era scripts in this directory.
+# The maintained package installs its own dependencies: `pip install .`
+# from the repository root (add ".[cuda]" for GPU search).
 numpy
 scipy
 matplotlib

@@ -1,6 +1,10 @@
 .venv/
 __pycache__/
 *.pyc
+build/
+dist/
+*.egg-info/
+.pytest_cache/
 logs/
 submissions/
 polygon-packer/results/night_harvest/
@@ -9,7 +13,9 @@ nul
 # unpublished manuscript stays out of the public repo; verification artifacts
 # (ledger.csv, certification.csv, solutions/, build scripts) remain public
 paper/preview/
+paper/paper.log
 paper/paper.tex
+paper/erich_email_draft.txt
 paper/paper.pdf
 paper/OUTLINE.md
 paper/make_figures.py

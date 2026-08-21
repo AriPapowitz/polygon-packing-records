@@ -31,7 +31,7 @@ INSTANCES = [
     (10, 4, 5, "squ_in_pen", 2.793235659, "solver-team entry, documented tie"),
     (12, 3, 5, "tri_in_pen", 1.973299205, "2026 entry, documented tie"),
     (12, 6, 6, "hex_in_hex", 3.941643237, "AlphaEvolve entry, documented tie"),
-    (21, 3, 6, "tri_in_hex", 1.998685, "rearrangement control (Lin floor)"),
+    (21, 3, 6, "tri_in_hex", 1.99869, "rearrangement control (displayed floor)"),
     (26, 4, 8, "squ_in_oct", 2.527094992259, "our record"),
 ]
 
@@ -95,12 +95,13 @@ def run_reference(n, nsi, nsc, budget):
 
 OUT = ROOT / "paper" / "baseline_cpu.csv"
 done = set()
-if OUT.exists():
+new_file = not OUT.exists()
+if not new_file:
     for r in csv.DictReader(open(OUT, encoding="utf-8")):
         done.add((r["category"], int(r["n"]), r["system"]))
 fh = open(OUT, "a", newline="", encoding="utf-8")
 w = csv.writer(fh)
-if not done:
+if new_file:
     w.writerow(["category", "n", "system", "seconds", "starts", "best_s",
                 "best_known_s", "gap", "note"])
 for n, nsi, nsc, cat, known, note in INSTANCES:
